@@ -21,12 +21,6 @@ Added:
 * [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - one new block for plane crafting table (255) - worth it, many plane entities and items - 
  - works OK
-* [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
- - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
- - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
- - changed to: 133, 134, 135
- - works, is sort of cool, elemental arrows, but:
- - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting
 * [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - added but glitchy, can't ride?
  - entity conflicts
@@ -41,9 +35,9 @@ Client-side only (optional):
  - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
 
 
-Block IDs available (59):
+Block IDs available (62):
 
-* 123-132 (9)
+* 123-135 (12)
  - 123 in 1.2 as redstone lamp (inactive)
  - 124 in 1.2 as redstone lamp (active)
 * 168-217 (49) 
@@ -56,11 +50,13 @@ Show up as unused in NEI, not meant to be acquired as items or causes crashes:
 * 166 - client NPE when /give, Material X166 defined, supposed to be BuildCraft pipe.id (legacy pipe?)
 * 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
 
-Disabled:
-
-
 Not now:
-
+* [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
+ - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
+ - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
+ - changed to: 133, 134, 135
+ - works, is sort of cool, elemental arrows, but:
+ - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting
 * [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/) -
 neat new metals, tools/weapon/armor items from metals, but requires many ore block IDs:
 140 ZincVein conflicts with RedPower2 ores. can blocks/items be disabled? if so, could be fun
