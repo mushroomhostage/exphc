@@ -24,6 +24,8 @@ Added:
 * [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - added but glitchy, can't ride?
  - entity conflicts
+* [BC-IC2 Crossover](http://www.minecraftforum.net/topic/863847-11-bc-ic2-crossover-mod-v124b-for-bc-2212313-and-ic2-170b-sspsmp/)
+ - rename z- so loads after Buildcraft, otherwise "java.lang.ClassNotFoundException: ic2.common.BlockMultiID"
 
 Client-side only (optional):
 
@@ -37,11 +39,12 @@ Client-side only (optional):
 
 Block IDs available (62):
 
-* 123-135 (12)
+* 123-135 
  - 123 in 1.2 as redstone lamp (inactive)
  - 124 in 1.2 as redstone lamp (active)
-* 168-217 (49) 
+* 168-209 
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
+* 213-217
 * 254
 
 Show up as unused in NEI, not meant to be acquired as items or causes crashes:
@@ -50,22 +53,31 @@ Show up as unused in NEI, not meant to be acquired as items or causes crashes:
 * 166 - client NPE when /give, Material X166 defined, supposed to be BuildCraft pipe.id (legacy pipe?)
 * 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
 
+Maybe:
+* [Castle Defenders](http://www.minecraftforum.net/topic/472937-11sspsmpcastle-defendersv23-new-npc-mage/) - 
+generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
+* [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-331-forge-smp/) - 
+ - five block IDs, can be changed/disabled 
+ - compatible with Buildcraft
+ - worth it? probably
+* [Battle Towers](http://www.minecraftforum.net/topic/480774-11smpcb-atomicstrykers-battle-towers/)
+ - bosses, could make for a good storyline
+
 Not now:
+
+* [Animal Bikes](http://www.minecraftforum.net/topic/762794-11-animalbikes-v195-sspsmp/page__hl__animal+bikes)
+ - interesting but prefer mechanized vehicles
+* [Auto Builder Mod](http://www.minecraftforum.net/topic/862685-ssp-smp-mod-11-auto-builder-mod/)
+ - makes building houses too easy
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
  - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
  - changed to: 133, 134, 135
  - works, is sort of cool, elemental arrows, but:
- - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting
+ - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting'(
 * [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/) -
 neat new metals, tools/weapon/armor items from metals, but requires many ore block IDs:
 140 ZincVein conflicts with RedPower2 ores. can blocks/items be disabled? if so, could be fun
-* [Castle Defenders](http://www.minecraftforum.net/topic/472937-11sspsmpcastle-defendersv23-new-npc-mage/) - 
-generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
-* [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-331-forge-smp/) - 
-five block IDs, can be changed/disabled -
-compatible with Buildcraft -
-worth it?
 * [Enderchest](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/)
  - special chest storing inventory across worlds, too OP?
 * [Equivalent Exchange](http://www.minecraftforum.net/topic/364525-110-equivalent-exchange-2-v138-smp/)
@@ -96,5 +108,5 @@ worth it?
  - Forge, block IDs, cool, but..
 * [Iron Chests](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
  - was IC2 add-on, could work well with crystal chests, but not enough need at this point
-
+* 
 
