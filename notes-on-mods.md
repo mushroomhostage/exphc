@@ -8,6 +8,9 @@
 Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack)
 
 * [IndustrialCraft2](http://wiki.industrial-craft.net/)
+ - to fix conflict with Natural Selection, in IC2.cfg change:
+ - blockDynamite=199
+ - blockDynamiteRemote=200
 * [RedPower2](http://www.eloraam.com/) 
  - disabled lighting module
 * [Buildcraft](http://www.mod-buildcraft.com/)
@@ -28,9 +31,15 @@ Added:
  - rename z- so loads after Buildcraft, otherwise "java.lang.ClassNotFoundException: ic2.common.BlockMultiID"
 * [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
  - arboretum, trees, apiary beekeeping, hives, mead, integrates with BC and IC, adds apatite ore (also copper,tin - can disable)
+ - looks cool, and useful, unfortunately beekeeping is only in 1.3 version
  - set world.generate.copper=false, world.generate.tin=false, world.register.copperBlock=false, world.register.tinBlock=false - on both client and server
  - - frees up 199 (copper) and 200 (tin)
  - SMP only on 1.2 for BC 2.2, new version 1.3+ only for SSP and BC 3+
+* [Natural Selection](http://www.minecraftforum.net/topic/950329-110smpforgenatural-selection-a-minecraft-survival-accession-v21/)
+ - new wild animals, new weapons! only two new blocks, oil shale and solidified crude oil. definitely fits within theme.
+ - slot 236 OilShale (used by IC2 dynamite, remapped 199), 235 SolidCrudeOil (used by IC2 dynamite remote, remapped 200)
+ - works great - extract client inside .jar, add resources
+ - should disable some features?
 
 Client-side only (optional):
 
@@ -70,6 +79,9 @@ generated castles with NPCs, looks cool, but requires many new blocks. block IDs
  - worth it? probably
 * [Battle Towers](http://www.minecraftforum.net/topic/480774-11smpcb-atomicstrykers-battle-towers/)
  - bosses, could make for a good storyline
+* [Minions](http://www.minecraftforum.net/topic/991952-11smpcb-minecraft-minions-112/)
+ - commit evil deeds, hire minions to do repetitive tasks for you! strip mines, mineshaft, chop forests. A* pathfinding
+ - looks useful, can be balanced, could make more fun less tedious
 
 Not now:
 
@@ -99,10 +111,23 @@ Not now:
  - mostly for aesthetics, already have furnaces
 * [Flan's WW2 Guns](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - prefer Balkan's Weapon Mod era of guns
-* [Iron Chests](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
+* [IronChest](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
  - was IC2 add-on, could work well with crystal chests, but not enough need at this point
 * [Kaevators Superslopes](http://www.minecraftforum.net/topic/151725-11-kaevator-mods-slopes-ceiling-stairs-and-hedges-new-wooden-frames/)
- - too many IDs, but definitely to consider after 1.2 released! (with 4096 block IDs)
+ - too many IDs I think, but definitely to consider after 1.2 released! (with 4096 block IDs)
+* [ManaSys](http://www.minecraftforum.net/topic/684102-1110sspsmpmanasys-v62/)
+ - maybe worthwhile, or too complex
+* [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/)
+ - neat new metals, tools/weapon/armor items from metals, but requires many ore block IDs:
+ - 140 ZincVein conflicts with RedPower2 ores. can blocks/items be disabled? if so, could be fun
+* [More Furnaces](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
+ - more blocks, plus, already have tech mods for different furnaces
+* [More Pistons](http://www.minecraftforum.net/topic/997095-11-more-pistons-ssp-smp/)
+ - double/triple/squad, gravitional piston launch entities, somewhat interesting
+* [More Storage Mod](http://www.minecraftforum.net/topic/794402-11-more-storage-v142-smp/) 
+ - too many blocks? too much storage?
+* [Multi Page Chest](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
+ - 585 stacks of items.. block id 203, but can change, maybe useful, or too concentrated? backpack would be better
 
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
@@ -110,18 +135,9 @@ Not now:
  - changed to: 133, 134, 135
  - works, is sort of cool, elemental arrows, but:
  - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting'(
-* [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/) -
-neat new metals, tools/weapon/armor items from metals, but requires many ore block IDs:
-140 ZincVein conflicts with RedPower2 ores. can blocks/items be disabled? if so, could be fun
-* [More Storage](http://www.minecraftforum.net/topic/794402-11-more-storage-v142-smp/) 
- - too many blocks?
-* [Multi Page Chest](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
- - 585 stacks of items.. block id 203, but can change, maybe useful, or too concentrated? backpack would be better
 * [Whole Tree Axe](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - overlaps with Axe + Power from [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/), although, it is simple enough..
  adds 5 diamond + 2 stick = whole-tree axe crafting recipe, maybe worth adding recipes for enchanted tools in EM?
-* [More Furnaces](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
- - more blocks, plus, already have tech mods for different furnaces
 * [Rancraft Penguins](http://www.minecraftforum.net/topic/910095-110-rancraft-penguins/)
  - cute, but useful? penguin flippers, swim fast in water! can we do this without client mods for EM?
  - spawn in snowy biomes - no Forge, add JarFiles/ResourceFiles, doesn't really fit into theme?
