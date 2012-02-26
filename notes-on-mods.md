@@ -26,6 +26,11 @@ Added:
  - entity conflicts
 * [BC-IC2 Crossover](http://www.minecraftforum.net/topic/863847-11-bc-ic2-crossover-mod-v124b-for-bc-2212313-and-ic2-170b-sspsmp/)
  - rename z- so loads after Buildcraft, otherwise "java.lang.ClassNotFoundException: ic2.common.BlockMultiID"
+* [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
+ - arboretum, trees, apiary beekeeping, hives, mead, integrates with BC and IC, adds apatite ore (also copper,tin - can disable)
+ - set world.generate.copper=false, world.generate.tin=false, world.register.copperBlock=false, world.register.tinBlock=false - on both client and server
+ - - frees up 199 (copper) and 200 (tin)
+ - SMP only on 1.2 for BC 2.2, new version 1.3+ only for SSP and BC 3+
 
 Client-side only (optional):
 
@@ -42,8 +47,10 @@ Block IDs available (62):
 * 123-135 
  - 123 in 1.2 as redstone lamp (inactive)
  - 124 in 1.2 as redstone lamp (active)
-* 168-209 
+* 168-196
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
+* 199-200
+ - was used for Forestry copper and tin but disabled
 * 213-217
 * 254
 
@@ -92,9 +99,6 @@ Not now:
  - mostly for aesthetics, already have furnaces
 * [Flan's WW2 Guns](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - prefer Balkan's Weapon Mod era of guns
-* [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
- - arboretum, trees, apiary beekeeping, hives, mead, integrates with BC and IC, adds apatite ore (also copper,tin - can disable)
- - SMP only on 1.2 for BC 2.2, new version 1.3+ only for SSP and BC 3+
 * [Iron Chests](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
  - was IC2 add-on, could work well with crystal chests, but not enough need at this point
 * [Kaevators Superslopes](http://www.minecraftforum.net/topic/151725-11-kaevator-mods-slopes-ceiling-stairs-and-hedges-new-wooden-frames/)
