@@ -40,6 +40,10 @@ Added:
  - slot 236 OilShale (used by IC2 dynamite, remapped 199), 235 SolidCrudeOil (used by IC2 dynamite remote, remapped 200)
  - works great - extract client inside .jar, add resources
  - should disable some features?
+* [PlasticCraft](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/)
+ - yes! - a new technological tier, with microwaves, night-vision goggles, plastic boats and tools, very well done
+ - works great
+
 
 Client-side only (optional):
 
@@ -53,13 +57,14 @@ Client-side only (optional):
 
 Block IDs available (62):
 
-* 123-135 
- - 123 in 1.2 as redstone lamp (inactive)
- - 124 in 1.2 as redstone lamp (active)
+* 123-124
+ - 123 in 1.2 as redstone lamp inactive
+ - 124 in 1.2 as redstone lamp active
+* 135-135
 * 168-196
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
-* 199-200
- - was used for Forestry copper and tin but disabled
+* 206-207
+* 209
 * 213-217
 * 254
 
@@ -128,7 +133,6 @@ Not now:
  - too many blocks? too much storage?
 * [Multi Page Chest](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - 585 stacks of items.. block id 203, but can change, maybe useful, or too concentrated? backpack would be better
-
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
  - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
