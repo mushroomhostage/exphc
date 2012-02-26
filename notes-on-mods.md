@@ -54,6 +54,7 @@ Show up as unused in NEI, not meant to be acquired as items or causes crashes:
 * 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
 
 Maybe:
+
 * [Castle Defenders](http://www.minecraftforum.net/topic/472937-11sspsmpcastle-defendersv23-new-npc-mage/) - 
 generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
 * [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-331-forge-smp/) - 
@@ -69,6 +70,36 @@ Not now:
  - interesting but prefer mechanized vehicles
 * [Auto Builder Mod](http://www.minecraftforum.net/topic/862685-ssp-smp-mod-11-auto-builder-mod/)
  - makes building houses too easy
+* [Blastcraft](http://www.minecraftforum.net/topic/1031475-smp-11-blastcraft-v2-now-out/)
+ - blastproof materials, overlap with IC2 alloy glass, already have cannons, plane bombs, dynamite
+* [ComeCloser](http://www.minecraftforum.net/topic/754668-darkguardsmans-smp-mods/)
+ - no player names until 5-6 blocks away 
+ - why does this require a server mod?
+ - would like to use, fits within theme, but when copy to mods/ says "Warning: mod_ComeCloser.class is in the wrong folder (won't be loaded)."
+* [ComputerCraft](http://www.minecraftforum.net/topic/892282-11-computercraft-13/)
+ - Forge, block IDs, cool, but..performance? more creative than survival
+* [Door Fix Mod](http://www.minecraftforum.net/topic/302018-110-ironclad49ers-mods/#doors)
+ - fairly minor fix
+* [Dynamic Elevators](http://www.minecraftforum.net/topic/302018-110-ironclad49ers-mods/#elevators)
+ - redstone-free, easier, but kind of redundant
+* [Enderchest](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/)
+ - special chest storing inventory across worlds, too OP?
+* [Eury's Iron Sign and Multi-Textured Sign'](http://www.minecraftforum.net/topic/1030033-110forge-eurys-mods-iron-sign-v11-added-sign-wandsspsmpbukkit/)
+ - two block IDs, sign post 213, wall sign 212, three item IDs 7000-7002, configurable, worth it for one thing?
+* [Equivalent Exchange](http://www.minecraftforum.net/topic/364525-110-equivalent-exchange-2-v138-smp/)
+ - advanced alchemy, interesting, but very powerful.. maybe too OP, too complex? not in theme?
+* [Fireplace](http://www.minecraftforum.net/topic/394309-11-fireplace-mod-v186-smp/) 
+ - mostly for aesthetics, already have furnaces
+* [Flan's WW2 Guns](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
+ - prefer Balkan's Weapon Mod era of guns
+* [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
+ - arboretum, trees, apiary beekeeping, hives, mead, integrates with BC and IC, adds apatite ore (also copper,tin - can disable)
+ - SMP only on 1.2 for BC 2.2, new version 1.3+ only for SSP and BC 3+
+* [Iron Chests](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
+ - was IC2 add-on, could work well with crystal chests, but not enough need at this point
+* [Kaevators Superslopes](http://www.minecraftforum.net/topic/151725-11-kaevator-mods-slopes-ceiling-stairs-and-hedges-new-wooden-frames/)
+ - too many IDs, but definitely to consider after 1.2 released! (with 4096 block IDs)
+
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
  - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
@@ -78,14 +109,8 @@ Not now:
 * [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/) -
 neat new metals, tools/weapon/armor items from metals, but requires many ore block IDs:
 140 ZincVein conflicts with RedPower2 ores. can blocks/items be disabled? if so, could be fun
-* [Enderchest](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/)
- - special chest storing inventory across worlds, too OP?
-* [Equivalent Exchange](http://www.minecraftforum.net/topic/364525-110-equivalent-exchange-2-v138-smp/)
- - advanced alchemy, interesting, but very powerful.. maybe too OP, too complex? not in theme?
 * [More Storage](http://www.minecraftforum.net/topic/794402-11-more-storage-v142-smp/) 
  - too many blocks?
-* [Fireplace](http://www.minecraftforum.net/topic/394309-11-fireplace-mod-v186-smp/) 
- - use?
 * [Multi Page Chest](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - 585 stacks of items.. block id 203, but can change, maybe useful, or too concentrated? backpack would be better
 * [Whole Tree Axe](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
@@ -93,20 +118,10 @@ neat new metals, tools/weapon/armor items from metals, but requires many ore blo
  adds 5 diamond + 2 stick = whole-tree axe crafting recipe, maybe worth adding recipes for enchanted tools in EM?
 * [More Furnaces](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - more blocks, plus, already have tech mods for different furnaces
-* [Eury's Iron Sign](http://www.minecraftforum.net/topic/1030033-110forge-eurys-mods-iron-sign-v11-added-sign-wandsspsmpbukkit/)
- - two block IDs, sign post 213, wall sign 212, three item IDs 7000-7002, configurable, worth it for one thing?
 * [Rancraft Penguins](http://www.minecraftforum.net/topic/910095-110-rancraft-penguins/)
  - cute, but useful? penguin flippers, swim fast in water! can we do this without client mods for EM?
  - spawn in snowy biomes - no Forge, add JarFiles/ResourceFiles, doesn't really fit into theme?
-* [Superslopes](http://www.minecraftforum.net/topic/151725-11-kaevator-mods-slopes-ceiling-stairs-and-hedges-new-wooden-frames/)
- - too many IDs, but definitely to consider after 1.2 released! (with 4096 block IDs)
 * [Shelf](http://www.minecraftforum.net/topic/75440-v11-risugamis-mods-everything-updated/)
  - potentially useful, but adds another block
-* [Flan's WW2 Guns](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
- - prefer Balkan's Weapon Mod era of guns
-* [ComputerCraft](http://www.minecraftforum.net/topic/892282-11-computercraft-13/)
- - Forge, block IDs, cool, but..
-* [Iron Chests](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
- - was IC2 add-on, could work well with crystal chests, but not enough need at this point
 * 
 
