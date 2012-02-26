@@ -22,6 +22,21 @@ works OK
 * [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) - 
 added but glitchy, can't ride?
 
+Client-side only (optional):
+
+* [Not Enough Items](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/)
+ - helpful for new items, show recipes to make item (R), and recipes which uses items (U), search, enchant (X)
+ - can use FT to get items for testing, but better than making own RecipeList plugin?
+ - subsets, hide microblocks RP2, tools, useful - even has API to add subset!
+ - looks very useful even for legitimate survival use
+ - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
+
+To consider:
+
+* [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
+ - grappling hook, rope arrow, new items, cool. block ID for rope? if only one, probably worth it!
+
+
 Not now:
 
 * [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/) -
@@ -63,17 +78,5 @@ worth it?
  - Forge, block IDs, cool, but..
 * [Iron Chests](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
  - was IC2 add-on, could work well with crystal chests, but not enough need at this point
-
-To consider:
-
-* [Not Enough Items](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/)
- - helpful for new items, show recipes to make item (R), and recipes which uses items (U), search, enchant (X)
- - can use FT to get items for testing, but better than making own RecipeList plugin?
- - subsets, hide microblocks RP2, tools, useful - even has API to add subset!
- - looks very useful even for legitimate survival use
- - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
-
-* [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
- - grappling hook, rope arrow, new items, cool. block ID for rope? if only one, probably worth it!
 
 
