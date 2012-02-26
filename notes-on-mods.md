@@ -36,14 +36,19 @@ To consider:
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. block ID for rope? if only one, probably worth it!
 
-Block IDs available (65):
+Block IDs available (62):
 
 * 123-135 (12)
-* 144 - server internal error when /give?
-* 166 - client NPE when /give, Material X166 defined, what is it?
-* 168-217 (49)
-* 240
+* 168-217 (49) 
+ - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
 * 254
+
+Show up as unused in NEI, not meant to be acquired as items or causes crashes:
+
+* 144 - server internal error when /give? supposed to be RedPower2 crops.id
+* 166 - client NPE when /give, Material X166 defined, supposed to be BuildCraft pipe.id (legacy pipe?)
+* 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
+
 
 
 Not now:
