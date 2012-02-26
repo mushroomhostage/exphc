@@ -9,18 +9,27 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
 
 * [IndustrialCraft2](http://wiki.industrial-craft.net/)
 * [RedPower2](http://www.eloraam.com/) 
+ - disabled lighting module
 * [Buildcraft](http://www.mod-buildcraft.com/)
 
 Added:
 
-* [Balkan's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) - 
-nifty new weapon items, no blocks, cannon entity - 
-works great
-* [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) - 
-one new block for plane crafting table (255) - worth it, many plane entities and items - 
-works OK
-* [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) - 
-added but glitchy, can't ride?
+* [Balkan's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) 
+ - nifty new weapon items, no blocks, cannon entity 
+ - manually config, entity IDs 121-132, and item IDs 5000-5046
+ - works great
+* [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
+ - one new block for plane crafting table (255) - worth it, many plane entities and items - 
+ - works OK
+* [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
+ - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
+ - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
+ - changed to: 133, 134, 135
+ - works, is sort of cool, elemental arrows, but:
+ - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting
+* [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
+ - added but glitchy, can't ride?
+ - entity conflicts
 
 Client-side only (optional):
 
@@ -31,14 +40,12 @@ Client-side only (optional):
  - looks very useful even for legitimate survival use
  - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
 
-To consider:
 
-* [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
- - grappling hook, rope arrow, new items, cool. block ID for rope? if only one, probably worth it!
+Block IDs available (59):
 
-Block IDs available (62):
-
-* 123-135 (12)
+* 123-132 (9)
+ - 123 in 1.2 as redstone lamp (inactive)
+ - 124 in 1.2 as redstone lamp (active)
 * 168-217 (49) 
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
 * 254
@@ -49,6 +56,7 @@ Show up as unused in NEI, not meant to be acquired as items or causes crashes:
 * 166 - client NPE when /give, Material X166 defined, supposed to be BuildCraft pipe.id (legacy pipe?)
 * 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
 
+Disabled:
 
 
 Not now:

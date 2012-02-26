@@ -1,0 +1,5 @@
+#Here you can customize Block ID's in case of incompatibility. Defaults: 242 - 244; ID may not exceed 255 unless a mod enables that
+#Sat Feb 25 17:51:21 PST 2012
+blockIdRopeDJRoslin=133
+blockIdRope=134
+blockIdGrapplingHook=135
