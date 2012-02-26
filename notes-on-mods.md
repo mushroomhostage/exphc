@@ -36,6 +36,15 @@ To consider:
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. block ID for rope? if only one, probably worth it!
 
+Block IDs available (65):
+
+* 123-135 (12)
+* 144 - server internal error when /give?
+* 166 - client NPE when /give, Material X166 defined, what is it?
+* 168-217 (49)
+* 240
+* 254
+
 
 Not now:
 
