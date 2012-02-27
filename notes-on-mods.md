@@ -19,7 +19,7 @@ Added:
 
 * [Balkan's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) 
  - nifty new weapon items, no blocks, cannon entity 
- - manually config, entity IDs 121-132, and item IDs 5000-5046
+ - manually config, entity IDs 180-191 (not 121-132, used by Railcraft), and item IDs 5000-5046
  - works great
 * [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - one new block for plane crafting table (255) - worth it, many plane entities and items - 
@@ -43,6 +43,14 @@ Added:
 * [PlasticCraft](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/)
  - yes! - a new technological tier, with microwaves, night-vision goggles, plastic boats and tools, very well done
  - works great
+* [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-331-forge-smp/) - 
+ - five block IDs, can be changed/disabled, compatible with Buildcraft. transport networks. worth it? probably
+ - wants block 253, used by RedPower, changed IDs: block.detector=192, block.elevator=193, block.rail.advanced=194, block.structure=195, block.structure=196
+ - had entity ID conflicts, net.entity.cart.steam = 121, conflicted with Balkan Weapon Mod spear-entity - changed Balkan to 180-191
+ - promising for rebuilding civilization
+ - requires [version 3.3.1](http://railcraft.wikispaces.com/Version+3.3.1) client, [Mediafire link](http://www.mediafire.com/?dt6wrkiugl9eak2)
+ - do not [download](http://railcraft.wikispaces.com/Download+%28Info%29) for Railcraft Client 3.4.0, submodules mod_RailcraftFactory/Buildcraft/Automation/Extras/Infrastructure/IC2/Rails.. 3.3.1 missing
+ - [maybe buggy](http://www.mcportcentral.co.za/index.php?topic=1119.0)? but minimal testing, seems cool
 
 
 Client-side only (optional):
@@ -55,33 +63,39 @@ Client-side only (optional):
  - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
 
 
-Block IDs available (62):
+Block IDs available:
 
-* 123-124
- - 123 in 1.2 as redstone lamp inactive
- - 124 in 1.2 as redstone lamp active
-* 135-135
-* 168-196
+* 134-135
+* 168-191
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
 * 206-207
 * 209
 * 213-217
 * 254
 
-Show up as unused in NEI, not meant to be acquired as items or causes crashes:
+Show up as unused in NEI, not meant to be acquired as items or causes crashes, or otherwise should avoid:
 
+* 123 - in 1.2 as redstone lamp inactive
+* 124 - in 1.2 as redstone lamp active
 * 144 - server internal error when /give? supposed to be RedPower2 crops.id
 * 166 - client NPE when /give, Material X166 defined, supposed to be BuildCraft pipe.id (legacy pipe?)
 * 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
 
 Maybe:
 
+* [Power Converters](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#power)
+ - another bridge mod between BC and IC2
+ - is this redundant to BC-IC2 Crossover, or does it complement it? seems to be an alternative
+ - although the jetpack refueller is nifty
+* [Smart Moving](http://www.minecraftforum.net/topic/361430-11smp-smart-moving/)
+ - very cool, sliding, swimming, diving, climbing from ceilings, charged dumps
+ - would fit well. tried to install, but it does require modding .jar..and needs Player API, thought I had
+* [Simple Ores](http://www.minecraftforum.net/topic/902350-minecraft-11-simpleores-v14-mod-ssp-smp/)
+ - small simple mod adding five ores: silver, copper, mythril, adamantium, onyx (in Nether), plus armor and tool sets
+ - fairly well done and well thought-out, less heavyweight than Metallurgy, could be fun, differing enchantability
+ - can silver and copper (block AND items) be disabled? at least mythril, adamantium, onyx (especially) may be worthwhile
 * [Castle Defenders](http://www.minecraftforum.net/topic/472937-11sspsmpcastle-defendersv23-new-npc-mage/) - 
-generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
-* [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-331-forge-smp/) - 
- - five block IDs, can be changed/disabled 
- - compatible with Buildcraft
- - worth it? probably
+ - generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
 * [Battle Towers](http://www.minecraftforum.net/topic/480774-11smpcb-atomicstrykers-battle-towers/)
  - bosses, could make for a good storyline
 * [Minions](http://www.minecraftforum.net/topic/991952-11smpcb-minecraft-minions-112/)
@@ -133,19 +147,22 @@ Not now:
  - too many blocks? too much storage?
 * [Multi Page Chest](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - 585 stacks of items.. block id 203, but can change, maybe useful, or too concentrated? backpack would be better
+* [Powerstone Mod](http://www.minecraftforum.net/topic/302018-110-ironclad49ers-mods/#powerstone)
+ - bluestone, RGB block, make redstone easier, seems to be a more lightweight alternative to RedPower
+* [Rancraft Penguins](http://www.minecraftforum.net/topic/910095-110-rancraft-penguins/)
+ - cute, but useful? penguin flippers, swim fast in water! can we do this without client mods for EM?
+ - spawn in snowy biomes - no Forge, add JarFiles/ResourceFiles, doesn't really fit into theme?'
 * [Ropes+](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/)
  - grappling hook, rope arrow, new items, cool. uses three block IDs, but probably worth it!
  - default: 242, 243, 244 - conflicts with IC2 BlockRubLeaves, BlockRubWood, BlockMiningTip
  - changed to: 133, 134, 135
  - works, is sort of cool, elemental arrows, but:
  - BUG: it makes bows unenchantable! whether at a table, or with /w. [post](http://www.minecraftforum.net/topic/461879-11smpcb-ropes/page__view__findpost__p__12535051), author says he doesn't care about enchanting'(
+* [Shelf](http://www.minecraftforum.net/topic/75440-v11-risugamis-mods-everything-updated/)
+ - potentially useful, but adds another block, fairly minor, for displays
+* [Sitable Chairs](http://www.minecraftforum.net/topic/942465-11-sspsmp-mountable-blocks-api-13-and-sitable-chairs-13/)
+ - a nice touch, but worth it?
 * [Whole Tree Axe](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - overlaps with Axe + Power from [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/), although, it is simple enough..
  adds 5 diamond + 2 stick = whole-tree axe crafting recipe, maybe worth adding recipes for enchanted tools in EM?
-* [Rancraft Penguins](http://www.minecraftforum.net/topic/910095-110-rancraft-penguins/)
- - cute, but useful? penguin flippers, swim fast in water! can we do this without client mods for EM?
- - spawn in snowy biomes - no Forge, add JarFiles/ResourceFiles, doesn't really fit into theme?
-* [Shelf](http://www.minecraftforum.net/topic/75440-v11-risugamis-mods-everything-updated/)
- - potentially useful, but adds another block
-* 
 
