@@ -59,6 +59,13 @@ Added:
  - fits well into theme
  - requires Player API in jars, both client and server
  - in smart_moving_options.txt change move.config.chat.init:false to fix 'Smart Moving: Medium' log spam on join
+* [Crafting Table II](http://www.minecraftforum.net/topic/856538-11-crafting-table-ii-v162-310112/)
+ - really cool, shows what can craft instead of remembering recipes, essential for large mods, also, many descriptions
+ - extract client to minecraft root (not jar), adds to config/ and mods/
+ - wants slot 235, used by Natural Selection crude oil. [change client config](https://github.com/perky/CraftingTableII/issues/15)
+ - config/mod_Clevercraft.cfg, blockIDCraftingTableII=191
+ - to change block ID on server had to [edit bytecode](http://www.mcportcentral.co.za/index.php?topic=1416.0), but it works!
+
 
 
 Client-side only (optional):
@@ -76,7 +83,6 @@ Block IDs available:
 * 134-135
 * 168-189
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
-* 191
 * 206-207
 * 209
 * 213-217
@@ -180,5 +186,4 @@ Not now:
 
 Addons:
 
-* [Crafting Table II](http://www.minecraftforum.net/topic/856538-11-crafting-table-ii-v162-310112/)
- - really cool, shows what can craft instead of remembering recipes, essential for large mods
+
