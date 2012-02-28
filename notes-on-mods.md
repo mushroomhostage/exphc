@@ -22,11 +22,9 @@ Added:
  - manually config, entity IDs 180-191 (not 121-132, used by Railcraft), and item IDs 5000-5046
  - works great
 * [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
- - one new block for plane crafting table (255) - worth it, many plane entities and items - 
+ - one new block for plane crafting table (255) - worth it, many plane entities and items 
+ - install in jar: MC 1.1 - Player API client 1.2.zip, turbomodelthingy-v2.3.6.zip (not in mods/)'
  - works OK
-* [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
- - added but glitchy, can't ride?
- - entity conflicts
 * [BC-IC2 Crossover](http://www.minecraftforum.net/topic/863847-11-bc-ic2-crossover-mod-v124b-for-bc-2212313-and-ic2-170b-sspsmp/)
  - rename z- so loads after Buildcraft, otherwise "java.lang.ClassNotFoundException: ic2.common.BlockMultiID"
 * [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
@@ -51,6 +49,10 @@ Added:
  - requires [version 3.3.1](http://railcraft.wikispaces.com/Version+3.3.1) client, [Mediafire link](http://www.mediafire.com/?dt6wrkiugl9eak2)
  - do not [download](http://railcraft.wikispaces.com/Download+%28Info%29) for Railcraft Client 3.4.0, submodules mod_RailcraftFactory/Buildcraft/Automation/Extras/Infrastructure/IC2/Rails.. 3.3.1 missing
  - [maybe buggy](http://www.mcportcentral.co.za/index.php?topic=1119.0)? but minimal testing, seems cool
+* [Smart Moving](http://www.minecraftforum.net/topic/361430-11smp-smart-moving/)
+ - very cool, sliding, swimming, diving, climbing from ceilings, charged dumps
+ - would fit well. tried to install, but it does require modding .jar..and needs Player API, thought I had
+ - requires Player API in jars, both client and server
 
 
 Client-side only (optional):
@@ -87,9 +89,8 @@ Maybe:
  - another bridge mod between BC and IC2
  - is this redundant to BC-IC2 Crossover, or does it complement it? seems to be an alternative
  - although the jetpack refueller is nifty
-* [Smart Moving](http://www.minecraftforum.net/topic/361430-11smp-smart-moving/)
- - very cool, sliding, swimming, diving, climbing from ceilings, charged dumps
- - would fit well. tried to install, but it does require modding .jar..and needs Player API, thought I had
+ - more server seem to be using Power Converters than BC-IC2 Crossover!
+
 * [Simple Ores](http://www.minecraftforum.net/topic/902350-minecraft-11-simpleores-v14-mod-ssp-smp/)
  - small simple mod adding five ores: silver, copper, mythril, adamantium, onyx (in Nether), plus armor and tool sets
  - fairly well done and well thought-out, less heavyweight than Metallurgy, could be fun, differing enchantability
@@ -128,6 +129,11 @@ Not now:
  - advanced alchemy, interesting, but very powerful.. maybe too OP, too complex? not in theme?
 * [Fireplace](http://www.minecraftforum.net/topic/394309-11-fireplace-mod-v186-smp/) 
  - mostly for aesthetics, already have furnaces
+* [Flan's Vehicles](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
+ - added but glitchy, can't ride?
+ - entity conflicts
+ - not that good, would rather have something like [Dawn of the Modern World](http://www.mcportcentral.co.za/index.php?topic=1371.0), once ported
+ - had installed, but removed
 * [Flan's WW2 Guns](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - prefer Balkan's Weapon Mod era of guns
 * [IronChest](http://www.minecraftforum.net/topic/981855-11-forge-sspsmpbukkit-ironchests-25/)
@@ -166,3 +172,7 @@ Not now:
  - overlaps with Axe + Power from [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/), although, it is simple enough..
  adds 5 diamond + 2 stick = whole-tree axe crafting recipe, maybe worth adding recipes for enchanted tools in EM?
 
+Addons:
+
+* [Crafting Table II](http://www.minecraftforum.net/topic/856538-11-crafting-table-ii-v162-310112/)
+ - really cool, shows what can craft instead of remembering recipes, essential for large mods
