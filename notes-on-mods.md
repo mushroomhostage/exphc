@@ -28,6 +28,7 @@ Added:
  - one new block for plane crafting table (255) - worth it, many plane entities and items 
  - install in jar: MC 1.1 - Player API client 1.2.zip, turbomodelthingy-v2.3.6.zip, AudioMod (not in mods/)
  - works OK
+ - install add-on: [Billy's Plane Pack](http://www.minecraftforum.net/topic/859479-110-billys-plane-pack-for-flans-planessmp/)
 * [Power Converters](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#power)
  - another bridge mod between BC and IC2
  - is this redundant to BC-IC2 Crossover, or does it complement it? seems to be an alternative
@@ -68,6 +69,16 @@ Added:
  - wants slot 235, used by Natural Selection crude oil. [change client config](https://github.com/perky/CraftingTableII/issues/15)
  - config/mod_Clevercraft.cfg, blockIDCraftingTableII=191
  - to change block ID on server had to [edit bytecode](http://www.mcportcentral.co.za/index.php?topic=1416.0), but it works!
+* [Mo Food and Crops](http://www.minecraftforum.net/topic/781133-11smpmo-foods-and-crops/)
+ - more realism and depth, very cool
+ - but no configurable block ids yet, on client or server, so would have to hack the bytecode
+ - decompile FarmBase.class, uses item IDs 3997-3487 (no conflicts), but lots of block IDs: 134-149 (15), conflicts with RedPower (though could change RP..)
+ - reconsider after block ids configurable
+ - mod FarmBase BlockIDs class: leave saplings 134, ricePlant 135, change lettucePlant 169, cornPlant 170, potatoPlant 171, 
+   yellowSeedling 172, redSeedling 173, tomatoPlant 174, appleBlock 175, avocadoBlock 176, 
+   orangeBlock 177, cocoaBlock 178, ApplePie 179, TacoPie 180, ChocolateCake 181, MeatPie 182
+ - also need to mod client
+ - installed for now, but will probably have to remove until ids configurable
 
 
 
@@ -89,9 +100,9 @@ Client-side only (optional):
 
 Block IDs available:
 
-* 134-135
-* 168-189
+* 168
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
+* 183-189
 * 206-207
 * 209-217
 * 254
@@ -161,10 +172,6 @@ Not now:
  - commit evil deeds, hire minions to do repetitive tasks for you! strip mines, mineshaft, chop forests. A* pathfinding
  - looks useful, can be balanced, could make more fun less tedious
  - maybe, or too much automation, better building machines instead harnessing of mystical beings?
-* [Mo Food and Crops](http://www.minecraftforum.net/topic/781133-11smpmo-foods-and-crops/)
- - more realism and depth, very cool
- - but no configurable block ids yet, on client or server, so would have to hack the bytecode
- - reconsider after block ids configurable
 * [More Furnaces](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - more blocks, plus, already have tech mods for different furnaces
 * [More Pistons](http://www.minecraftforum.net/topic/997095-11-more-pistons-ssp-smp/)
