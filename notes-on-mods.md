@@ -79,8 +79,11 @@ Client-side only (optional):
  - subsets, hide microblocks RP2, tools, useful - even has API to add subset!
  - looks very useful even for legitimate survival use
  - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
-* TODO: Optifine?
-* TODO: matmos?
+* [Optifine](http://www.minecraftforum.net/topic/249637-11-optifine-hd-d6-fps-boost-hd-textures-aa-af/)
+ - performance tweaks, better graphics
+ - clear water, connected textures, zoom (change key to Z)
+* [MAtmos](http://www.minecraftforum.net/topic/379925-110-matmos-r10-environmental-sound-atmosphere-simulator/)
+ - environmental sounds, with or without weapons expansion (I preferred without)
 
 Block IDs available:
 
