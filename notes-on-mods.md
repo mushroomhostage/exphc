@@ -13,7 +13,9 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
  - blockDynamiteRemote=200
  - TODO: update to r4
 * [RedPower2](http://www.eloraam.com/) 
- - disabled lighting module
+ - all modules
+ - lighting module conflicted with block 147 - buildcraft/config/buildcraft.cfg ironPipe.id
+ - in redpower/redpower.cfg, change lampOff.id=206, lampOn.id=207
 * [Buildcraft](http://www.mod-buildcraft.com/)
 
 Added:
