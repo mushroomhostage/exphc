@@ -11,6 +11,7 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
  - to fix conflict with Natural Selection, in IC2.cfg change:
  - blockDynamite=199
  - blockDynamiteRemote=200
+ - TODO: update to r4
 * [RedPower2](http://www.eloraam.com/) 
  - disabled lighting module
 * [Buildcraft](http://www.mod-buildcraft.com/)
@@ -23,7 +24,7 @@ Added:
  - works great
 * [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) 
  - one new block for plane crafting table (255) - worth it, many plane entities and items 
- - install in jar: MC 1.1 - Player API client 1.2.zip, turbomodelthingy-v2.3.6.zip (not in mods/)
+ - install in jar: MC 1.1 - Player API client 1.2.zip, turbomodelthingy-v2.3.6.zip, AudioMod (not in mods/)
  - works OK
 * [Power Converters](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#power)
  - another bridge mod between BC and IC2
@@ -70,13 +71,16 @@ Added:
 
 Client-side only (optional):
 
+* [Magic Launcher](http://www.minecraftforum.net/topic/939149-launcher-magic-launcher-097-mods-options-news/)
+ - enable/disable mods without modifying minecraft.jar on disk, for convenience, other features
 * [Not Enough Items](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/)
  - helpful for new items, show recipes to make item (R), and recipes which uses items (U), search, enchant (X)
  - can use FT to get items for testing, but better than making own RecipeList plugin?
  - subsets, hide microblocks RP2, tools, useful - even has API to add subset!
  - looks very useful even for legitimate survival use
  - works for limited use without server mod (CodeChickenCore in mods/ + NotEnoughItems in jar)
-
+* TODO: Optifine?
+* TODO: matmos?
 
 Block IDs available:
 
@@ -84,8 +88,7 @@ Block IDs available:
 * 168-189
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
 * 206-207
-* 209
-* 213-217
+* 209-217
 * 254
 
 Show up as unused in NEI, not meant to be acquired as items or causes crashes, or otherwise should avoid:
@@ -96,32 +99,29 @@ Show up as unused in NEI, not meant to be acquired as items or causes crashes, o
 * 166 - client NPE when /give, Material X166 defined, supposed to be BuildCraft pipe.id (legacy pipe?)
 * 240 - client NPE when /give, supposed to be blockHarz from IndustrialCraft2 = resin sheet.. there is harz = Sticky Resin (30217), and it works, maybe not supposed to acquire 240?
 
-Maybe:
-
-* [Castle Defenders](http://www.minecraftforum.net/topic/472937-11sspsmpcastle-defendersv23-new-npc-mage/) - 
- - generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
-* [Battle Towers](http://www.minecraftforum.net/topic/480774-11smpcb-atomicstrykers-battle-towers/)
- - bosses, could make for a good storyline
-* [Minions](http://www.minecraftforum.net/topic/991952-11smpcb-minecraft-minions-112/)
- - commit evil deeds, hire minions to do repetitive tasks for you! strip mines, mineshaft, chop forests. A* pathfinding
- - looks useful, can be balanced, could make more fun less tedious
-
 Not now:
 
 * [Animal Bikes](http://www.minecraftforum.net/topic/762794-11-animalbikes-v195-sspsmp/page__hl__animal+bikes)
  - interesting but prefer mechanized vehicles
 * [Auto Builder Mod](http://www.minecraftforum.net/topic/862685-ssp-smp-mod-11-auto-builder-mod/)
  - makes building houses too easy
+* [Battle Towers](http://www.minecraftforum.net/topic/480774-11smpcb-atomicstrykers-battle-towers/)
+ - bosses, could make for a good storyline
+ - maybe, but too hostile?
 * [BC-IC2 Crossover](http://www.minecraftforum.net/topic/863847-11-bc-ic2-crossover-mod-v124b-for-bc-2212313-and-ic2-170b-sspsmp/)
  - rename z- so loads after Buildcraft, otherwise "java.lang.ClassNotFoundException: ic2.common.BlockMultiID"
  - machines are not properly named on server, unbounded machine.damagevalue, had to limit name explosion for FT
  - used momentarily, but switched to Power Converters
 * [Blastcraft](http://www.minecraftforum.net/topic/1031475-smp-11-blastcraft-v2-now-out/)
  - blastproof materials, overlap with IC2 alloy glass, already have cannons, plane bombs, dynamite
+* [Castle Defenders](http://www.minecraftforum.net/topic/472937-11sspsmpcastle-defendersv23-new-npc-mage/) - 
+ - generated castles with NPCs, looks cool, but requires many new blocks. block IDs?
+ - maybe, or does it not fit into to theme as much? too hostile?
 * [ComeCloser](http://www.minecraftforum.net/topic/754668-darkguardsmans-smp-mods/)
  - no player names until 5-6 blocks away 
  - why does this require a server mod?
  - would like to use, fits within theme, but when copy to mods/ says "Warning: mod_ComeCloser.class is in the wrong folder (won't be loaded)."
+ - have installed into client, but don't know if it does anything without server component
 * [ComputerCraft](http://www.minecraftforum.net/topic/892282-11-computercraft-13/)
  - Forge, block IDs, cool, but..performance? more creative than survival
 * [Door Fix Mod](http://www.minecraftforum.net/topic/302018-110-ironclad49ers-mods/#doors)
@@ -152,6 +152,14 @@ Not now:
 * [Metallurgy](http://www.minecraftforum.net/topic/744918-11ssp-smpforgebukkit-metallurgy-v13pr2update-21312/)
  - neat new metals, tools/weapon/armor items from metals, but requires many ore block IDs:
  - 140 ZincVein conflicts with RedPower2 ores. can blocks/items be disabled? if so, could be fun
+* [Minions](http://www.minecraftforum.net/topic/991952-11smpcb-minecraft-minions-112/)
+ - commit evil deeds, hire minions to do repetitive tasks for you! strip mines, mineshaft, chop forests. A* pathfinding
+ - looks useful, can be balanced, could make more fun less tedious
+ - maybe, or too much automation, better building machines instead harnessing of mystical beings?
+* [Mo Food and Crops](http://www.minecraftforum.net/topic/781133-11smpmo-foods-and-crops/)
+ - more realism and depth, very cool
+ - but no configurable block ids yet, on client or server, so would have to hack the bytecode
+ - reconsider after block ids configurable
 * [More Furnaces](http://www.minecraftforum.net/topic/506109-110-cubex2s-mods-custom-stuff-multi-page-chest-smp/)
  - more blocks, plus, already have tech mods for different furnaces
 * [More Pistons](http://www.minecraftforum.net/topic/997095-11-more-pistons-ssp-smp/)
