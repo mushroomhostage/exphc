@@ -14,19 +14,8 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
 * [RedPower2](http://www.eloraam.com/) 
  - all modules
  - lighting module conflicted with block 147 - buildcraft/config/buildcraft.cfg ironPipe.id
- - in redpower/redpower.cfg, change lampOff.id=206, lampOn.id=207 to fix conflict with Flan Planes
- - conflicted with Mo Food (uses 134-149, 136-149 conflict): 
-  microblock.id=136, appliance.id=137, logic.logic.id=138, plants.id=139, 
-  ores.id=140, leaves.id=141, stone.id=142, log.id=143, crops.id=144, 
-  - change: 
-  microblock.id=209, appliance.id=210, logic.logic.id=211, plants.id=212,
-  ores.id=213, leaves.id=214, stone.id=215, log.id=216, crops.id=217,
-
+ - in redpower/redpower.cfg, changed lampOff.id=206, lampOn.id=207 to fix conflict with Buildcraft
 * [Buildcraft](http://www.mod-buildcraft.com/)
- - conflicted with Mo Food (uses 134-149, 145-149 conflict)
-  woodenPipe.id=145, stonePipe.id=146, ironPipe.id=147, goldenPipe.id=148, diamondPipe.id=149
- - change:
-  woodenPipe.id=178, stonePipe.id=179, ironPipe.id=180, goldenPipe.id=181, diamondPipe.id=182
 
 Added:
 
@@ -81,10 +70,25 @@ Added:
  - to change block ID on server had to [edit bytecode](http://www.mcportcentral.co.za/index.php?topic=1416.0), but it works!
 * [Mo Food and Crops](http://www.minecraftforum.net/topic/781133-11smpmo-foods-and-crops/)
  - more realism and depth, very cool
- - but no configurable block ids yet, on client or server, so would have to hack the bytecode
- - decompile FarmBase.class, uses item IDs 3997-3487 (no conflicts), but lots of block IDs: 134-149 (15), and conflicts with RedPower and Buildcraft
- - leave IDs as is, but change RedPower and BuildCraft to not conflict
-
+ - by default uses item IDs 3997-3487 (no conflicts), but lots of block IDs: 134-149 (15), and conflicts with RedPower and Buildcraft
+ - on server couldn't find config, so modded bytecode
+ - on client config/mo food and crops.cfg:
+ - leave BlockID.Saplings=134, BlockID.ricePlant=135
+ - change to fix conflicts with RP and BC:
+ BlockID.lettucePlant=169
+ BlockID.cornPlant=170
+ BlockID.potatoPlant=171
+ BlockID.yellowSeedling=172
+ BlockID.redSeedling=173
+ BlockID.tomatoPlant=174
+ BlockID.appleBlock=175
+ BlockID.avacadoBlock=176
+ BlockID.orangeBlock=177
+ BlockID.cocoaBlock=178
+ BlockID.ApplePie=179
+ BlockID.TacoPie=180
+ BlockID.ChocolateCake=181
+ BlockID.MeatPie=182
 
 
 Client-side only (optional):
