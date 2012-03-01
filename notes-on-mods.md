@@ -11,12 +11,16 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
  - to fix conflict with Natural Selection, in IC2.cfg change:
  - blockDynamite=199
  - blockDynamiteRemote=200
- - TODO: update to r4
 * [RedPower2](http://www.eloraam.com/) 
  - all modules
  - lighting module conflicted with block 147 - buildcraft/config/buildcraft.cfg ironPipe.id
- - in redpower/redpower.cfg, change lampOff.id=206, lampOn.id=207
+ - in redpower/redpower.cfg, change lampOff.id=206, lampOn.id=207 to fix conflict with Flan Planes
+ - conflicted with Mo Food (uses 134-149, 136-149 conflict): 
+  microblock.id=136, appliance.id=137, logic.logic.id=138, plants.id=139, 
+  ores.id=140, leaves.id=141, stone.id=142, log.id=143, crops.id=144, 
 * [Buildcraft](http://www.mod-buildcraft.com/)
+ - conflicted with Mo Food (uses 134-149, 145-149 conflict)
+  woodenPipe.id=145, stonePipe.id=146, ironPipe.id=147, goldenPipe.id=148, diamondPipe.id=149
 
 Added:
 
@@ -79,6 +83,7 @@ Added:
    orangeBlock 177, cocoaBlock 178, ApplePie 179, TacoPie 180, ChocolateCake 181, MeatPie 182
  - also need to mod client
  - installed for now, but will probably have to remove until ids configurable
+ - or change ids on RedPower2? uses 134-149 for covers and gates
 
 
 
@@ -103,7 +108,6 @@ Block IDs available:
 * 168
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
 * 183-189
-* 206-207
 * 209-217
 * 254
 
