@@ -18,9 +18,15 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
  - conflicted with Mo Food (uses 134-149, 136-149 conflict): 
   microblock.id=136, appliance.id=137, logic.logic.id=138, plants.id=139, 
   ores.id=140, leaves.id=141, stone.id=142, log.id=143, crops.id=144, 
+  - change: 
+  microblock.id=209, appliance.id=210, logic.logic.id=211, plants.id=212,
+  ores.id=213, leaves.id=214, stone.id=215, log.id=216, crops.id=217,
+
 * [Buildcraft](http://www.mod-buildcraft.com/)
  - conflicted with Mo Food (uses 134-149, 145-149 conflict)
   woodenPipe.id=145, stonePipe.id=146, ironPipe.id=147, goldenPipe.id=148, diamondPipe.id=149
+ - change:
+  woodenPipe.id=178, stonePipe.id=179, ironPipe.id=180, goldenPipe.id=181, diamondPipe.id=182
 
 Added:
 
@@ -76,14 +82,8 @@ Added:
 * [Mo Food and Crops](http://www.minecraftforum.net/topic/781133-11smpmo-foods-and-crops/)
  - more realism and depth, very cool
  - but no configurable block ids yet, on client or server, so would have to hack the bytecode
- - decompile FarmBase.class, uses item IDs 3997-3487 (no conflicts), but lots of block IDs: 134-149 (15), conflicts with RedPower (though could change RP..)
- - reconsider after block ids configurable
- - mod FarmBase BlockIDs class: leave saplings 134, ricePlant 135, change lettucePlant 169, cornPlant 170, potatoPlant 171, 
-   yellowSeedling 172, redSeedling 173, tomatoPlant 174, appleBlock 175, avocadoBlock 176, 
-   orangeBlock 177, cocoaBlock 178, ApplePie 179, TacoPie 180, ChocolateCake 181, MeatPie 182
- - also need to mod client
- - installed for now, but will probably have to remove until ids configurable
- - or change ids on RedPower2? uses 134-149 for covers and gates
+ - decompile FarmBase.class, uses item IDs 3997-3487 (no conflicts), but lots of block IDs: 134-149 (15), and conflicts with RedPower and Buildcraft
+ - leave IDs as is, but change RedPower and BuildCraft to not conflict
 
 
 
