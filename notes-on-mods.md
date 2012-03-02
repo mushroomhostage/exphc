@@ -20,7 +20,7 @@ Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack
 
 Added:
 
-* [Balkan's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) 
+* [Balkon's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) 
  - nifty new weapon items, no blocks, cannon entity 
  - manually config, entity IDs 180-191 (not 121-132, used by Railcraft), and item IDs 5000-5046
  - works great
@@ -29,6 +29,12 @@ Added:
  - install in jar: MC 1.1 - Player API client 1.2.zip, turbomodelthingy-v2.3.6.zip, AudioMod (not in mods/)
  - works OK
  - install add-on: [Billy's Plane Pack](http://www.minecraftforum.net/topic/859479-110-billys-plane-pack-for-flans-planessmp/)
+* [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
+ - arboretum, trees, apiary beekeeping, hives, mead, integrates with BC and IC, adds apatite ore (also copper,tin - can disable)
+ - looks cool, and useful, unfortunately beekeeping is only in 1.3 version
+ - set world.generate.copper=false, world.generate.tin=false, world.register.copperBlock=false, world.register.tinBlock=false - on both client and server
+ - - frees up 199 (copper) and 200 (tin)
+ - SMP only on 1.2 for BC 2.2, new version 1.3+ only for SSP and BC 3+
 * [Power Converters](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#power)
  - another bridge mod between BC and IC2
  - is this redundant to BC-IC2 Crossover, or does it complement it? seems to be an alternative
@@ -36,20 +42,14 @@ Added:
  - more server seem to be using Power Converters than BC-IC2 Crossover!
  - rename to z* to load after Buildcraft and fix not found error
  - uses block 190, no conflicts
-* [Forestry](http://www.minecraftforum.net/topic/700588-11smp-forestry-for-minecraft-trees-bees-and-more/)
- - arboretum, trees, apiary beekeeping, hives, mead, integrates with BC and IC, adds apatite ore (also copper,tin - can disable)
- - looks cool, and useful, unfortunately beekeeping is only in 1.3 version
- - set world.generate.copper=false, world.generate.tin=false, world.register.copperBlock=false, world.register.tinBlock=false - on both client and server
- - - frees up 199 (copper) and 200 (tin)
- - SMP only on 1.2 for BC 2.2, new version 1.3+ only for SSP and BC 3+
+* [PlasticCraft](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#plastic)
+ - yes! - a new technological tier, with microwaves, night-vision goggles, plastic boats and tools, very well done
+ - works great
 * [Natural Selection](http://www.minecraftforum.net/topic/950329-110smpforgenatural-selection-a-minecraft-survival-accession-v21/)
  - new wild animals, new weapons! only two new blocks, oil shale and solidified crude oil. definitely fits within theme.
  - slot 236 OilShale (used by IC2 dynamite, remapped 199), 235 SolidCrudeOil (used by IC2 dynamite remote, remapped 200)
  - works great - extract client inside .jar, add resources
  - should disable some features?
-* [PlasticCraft](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/)
- - yes! - a new technological tier, with microwaves, night-vision goggles, plastic boats and tools, very well done
- - works great
 * [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-331-forge-smp/) - 
  - five block IDs, can be changed/disabled, compatible with Buildcraft. transport networks. worth it? probably
  - wants block 253, used by RedPower, changed IDs: block.detector=192, block.elevator=193, block.rail.advanced=194, block.structure=195, block.structure=196
