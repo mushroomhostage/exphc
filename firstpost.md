@@ -11,7 +11,7 @@ if you still want to join, read on!
 
 **Required mods**:
 
-*Minecraft 1.1 only (1.2.3 can be downgraded with [MCNostaliga](http://www.minecraftforum.net/topic/800346-tool-mcnostalgia-210-now-works-with-123/))*
+*Minecraft 1.1 only (1.2.3 can be downgraded with [MCNostalgia](http://www.minecraftforum.net/topic/800346-tool-mcnostalgia-210-now-works-with-123/))*
 
 * [IndustrialCraft^2](http://wiki.industrial-craft.net/index.php?title=Download#IndustrialCraft.C2.B2) v1.71
 * [RedPower](http://www.eloraam.com/?page_id=130) v2.0pr4d (all modules)
