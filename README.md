@@ -27,7 +27,7 @@ if you still want to join, read on!
 * [Crafting Table II](http://www.minecraftforum.net/topic/856538-11-crafting-table-ii-v162-310112/) v1.6.2
 * [Mo' Food and Crops](http://www.minecraftforum.net/topic/781133-11smpmo-foods-and-crops/) v1.1.0
 
-All of the above mods must be correctly installed in order to successfully connect. I realize this may be a 
+All of the above client mods must be correctly installed in order to successfully connect. I realize this may be a 
 tedious process, unfortunately, but it is what it is. There are instructions in each of the mod threads
 and several YouTube installation videos if you get stuck.
 After all the mods are installed, the configuration needs to be modified to match the server:
@@ -51,12 +51,19 @@ into the Minecraft root, overwriting the existing config files, or
 * Rules subject to change at any time
 * PvP enabled and difficulty set to maximum 
 * Stealing, raiding, robbing, killing, griefing is allowed - this is hardcore
+
+**Technical Specifications**:
+
 * Random spawn, 8k in each direction (16,000 x 16,000 world)
 * Death bans set to 1 day
+* Professionally hosted VDS
+* Eight-core Intel Xeon X5675 3.07 GHz processor
+* 8 GB memory, 1 Gbps network uplink
+* Hosted in the west coast (USA)
 
 **Server plugins**:
 
-Nothing to install on your side, but FYI, several notable plugins are installed:
+Nothing to install on your side, but FYI, notable plugins installed include:
 
 * [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) (of course) - radiation, craters, dirty bombs, fallout shelters (slightly customized)
 * [RadioBeacon](http://dev.bukkit.org/server-mods/radiobeacon/) - radio towers, relays, portable compass radios
@@ -64,7 +71,7 @@ Nothing to install on your side, but FYI, several notable plugins are installed:
 * [Writable](http://dev.bukkit.org/server-mods/writable/) - double-right-click to write on paper
 * [SilkSpawners](http://dev.bukkit.org/server-mods/silkspawners/) - harvest mob spawners with silk touch
 * [BetterDispensers](http://dev.bukkit.org/server-mods/betterdispensers/) - dispensers can face straight up/down
-* New experimental trading plugin - a mysterious global trading network survived the calamity. You can access it by standing near a trade terminal (two enderpearls = lapis lazuli block), holding the item(s) you want give in your hand, and typing /want followed by the item you want.
+* New unreleased trading plugin - a mysterious global trading network survived the calamity. You can access it by standing near a trade terminal (two enderpearls = lapis lazuli block), holding the item(s) you want give in your hand, and typing /want followed by the item you want.
 
 More experimental plugins or mods may be added or removed or nerfed if needed.
 
