@@ -55,24 +55,7 @@ Added:
  - wants block 253, used by RedPower, changed IDs: block.detector=192, block.elevator=193, block.rail.advanced=194, block.structure=195, block.structure=196
  - had entity ID conflicts, net.entity.cart.steam = 121, conflicted with Balkan Weapon Mod spear-entity - changed Balkan to 180-191
  - promising for rebuilding civilization
- - requires [version 3.4.0](http://railcraft.wikispaces.com/Download%20%28Info%29)
-<smbarbour[Melonar]> *ANNOUNCEMENT:  Railcraft 3.4.0 is now ported to Bukkit and everything should be working.*
- <NoBlackThunder> GJ
- <DV8Fromtheworld> NICE!
- <DV8Fromtheworld> like, everything?
- <DV8Fromtheworld> like, everything??
- <DV8Fromtheworld> :P
- <smbarbour[Melonar]> DV8, can you do me the favor of making the post on the forums?  I have to head home from work.  CovertJaguar is the original author and has given blanket permission for Railcraft to be ported to Bukkit.
- <smbarbour[Melonar]> https://sites.google.com/site/smbarbour2/Railcraft-3.4.0-cb1.1rb3-rel1.zip
- <DV8Fromtheworld> yea, ill post is here in a bit, need to fix something on my PC
- <DV8Fromtheworld> :)
- <smbarbour[Melonar]> and it should work for CB1.1-R3 and later
- <DV8Fromtheworld> what did you build against?
- <DV8Fromtheworld> R3 or R4?
- <smbarbour[Melonar]> R3
- <DV8Fromtheworld> ok, ill post in there, ill also post in R4
- <smbarbour[Melonar]> Client can be downloaded at: http://railcraft.wikispaces.com/Download%20%28Info%29
-
+ - requires [version 3.4.2](http://railcraft.wikispaces.com/Download%20%28Info%29)
 * [Smart Moving](http://www.minecraftforum.net/topic/361430-11smp-smart-moving/)
  - very cool, sliding, swimming, diving, climbing from ceilings, charged dumps
  - fits well into theme

@@ -1,6 +1,9 @@
+I finally caved and bought a server :). Not sure how well it'll work out, I may completely change it up,
+make it private, or shut it down at any time. But I have it up and running today, so I figured I'd open
+it up to the readers of this small subreddit, if anyone is interested in a new take on the hardcore
+post-apocalyptic genre. 
 
-Server address: *exphc.us.to:1100*
-
+Server address: **exphc.us.to:1100**
 
 Required mods:
 
