@@ -36,12 +36,19 @@ extract this
 into the Minecraft root, overwriting the existing config files, or 
 [manually edit](https://github.com/mushroomhostage/exphc/tree/master/client-config) the config files if you prefer.
 
-**Optional client mods**: (recommended, but its up to you)
+*Optional client mods*: (recommended, but its up to you)
 
 * [Magic Launcher](http://www.minecraftforum.net/topic/939149-launcher-magic-launcher-097-mods-options-news/) - install/uninstall mods without patching jars
 * [Not Enough Items](http://www.minecraftforum.net/topic/909223-110181-smp-chickenbones-mods/) - show all items and crafting recipes 
 * [Optifine](http://www.minecraftforum.net/topic/249637-11-optifine-hd-d6-fps-boost-hd-textures-aa-af/) - graphics and performance improvements
 * [MAtmos](http://www.minecraftforum.net/topic/379925-110-matmos-r10-environmental-sound-atmosphere-simulator/) - environmental sounds for a more immersive experience
+
+---
+
+***Need help installing?*** Try these [setup instructions](https://github.com/mushroomhostage/exphc/wiki/Setup)
+
+---
+---
 
 **Rules and information**:
 
