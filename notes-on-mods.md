@@ -127,7 +127,7 @@ Block IDs available:
 
 * 168
  - 168 BC dockingStation.id, but no such item - no reference on wiki - unused?
-* 183-189
+* 179-189
 * 209-217
 * 254
 
