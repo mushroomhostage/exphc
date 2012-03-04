@@ -21,7 +21,7 @@ if you still want to join, read on!
 * [PlasticCraft](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#plastic) v3.0.2
 * [Balkon's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) v8.4
 * [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) v16 + [Billy's Plane Pack](http://www.minecraftforum.net/topic/859479-110-billys-plane-pack-for-flans-planessmp/) 
-* [Natural Selection](http://www.minecraftforum.net/topic/950329-110smpforgenatural-selection-a-minecraft-survival-accession-v21/) v1.9.1
+* [Natural Selection](http://www.minecraftforum.net/topic/950329-110smpforgenatural-selection-a-minecraft-survival-accession-v21/) v2.1
 * [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-341-forge-smp/) v3.4.2
 * [Smart Moving](http://www.minecraftforum.net/topic/361430-11smp-smart-moving/) v6.12
 * [Crafting Table II](http://www.minecraftforum.net/topic/856538-11-crafting-table-ii-v162-310112/) v1.6.2
