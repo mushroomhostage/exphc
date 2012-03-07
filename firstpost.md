@@ -20,7 +20,7 @@ if you still want to join, read on!
 * [Power Converters](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#power) v1.3.1_01 
 * [PlasticCraft](http://www.minecraftforum.net/topic/119361-110-tehkrushs-mods-all-mods-updated-and-plasticcraft-smp/#plastic) v3.0.2
 * [Balkon's Weapon Mod](http://www.minecraftforum.net/topic/211517-11-balkons-weaponmod-v84-multiplayer/) v8.4
-* [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) v16 + [Billy's Plane Pack](http://www.minecraftforum.net/topic/859479-110-billys-plane-pack-for-flans-planessmp/) 
+* [Flan's Plane Mod](http://www.minecraftforum.net/topic/182918-11smp-flans-mods-planes-ww2-guns-vehicles-playerapi-moods-mputils-teams/) v16 + [Billy's Plane Pack](http://www.minecraftforum.net/topic/859479-110-billys-plane-pack-for-flans-planessmp/) IIV
 * [Natural Selection](http://www.minecraftforum.net/topic/950329-110smpforgenatural-selection-a-minecraft-survival-accession-v21/) v2.1
 * [Railcraft](http://www.minecraftforum.net/topic/701990-110-railcraft-341-forge-smp/) v3.4.2
 * [Smart Moving](http://www.minecraftforum.net/topic/361430-11smp-smart-moving/) v6.12
@@ -58,11 +58,12 @@ into the Minecraft root, overwriting the existing config files, or
 * Rules subject to change at any time
 * PvP enabled and difficulty set to maximum 
 * Stealing, raiding, robbing, killing, griefing is allowed - this is hardcore
+* Coordinate sharing is allowed, anywhere (for now, may change later)
 
 **Technical Specifications**:
 
 * Random spawn, 8k in each direction (16,000 x 16,000 world)
-* Death bans set to 1 day
+* ~~Death bans set to 1 day~~ ~~*currently disabled for testing purposes*~~ *– now set to 5 minutes for testing purposes*
 * Professionally hosted VDS
 * Eight-core Intel Xeon X5675 3.07 GHz processor
 * 8 GB memory, 1 Gbps network uplink
@@ -78,11 +79,10 @@ Nothing to install on your side, but FYI, notable plugins installed include:
 * [Writable](http://dev.bukkit.org/server-mods/writable/) - double-right-click to write on paper
 * [SilkSpawners](http://dev.bukkit.org/server-mods/silkspawners/) - harvest mob spawners with silk touch
 * [BetterDispensers](http://dev.bukkit.org/server-mods/betterdispensers/) - dispensers can face straight up/down
-* New unreleased trading plugin - a mysterious global trading network survived the calamity. You can access it by standing near a trade terminal (two enderpearls = lapis lazuli block), holding the item(s) you want give in your hand, and typing /want followed by the item you want.
+* New unreleased trading plugin - a mysterious global trading network survived the calamity. You can access it by ~~standing near a trade terminal (two enderpearls = lapis lazuli block)~~ *(you can now trade anywhere!)*, holding the item(s) you want give in your hand, and typing /want followed by the item you want.
 
 More experimental plugins or mods may be added or removed or nerfed if needed.
 
 Hope you all enjoy this brand new server. If it sucks or is awesome, please let me know either way, all feedback
 appreciated, any suggestions welcome. I can't promise I'll implement everything or fix all problems,
 but, I'll consider it, and do what I can. Have fun.
-
