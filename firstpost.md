@@ -73,7 +73,7 @@ into the Minecraft root, overwriting the existing config files, or
 
 Nothing to install on your side, but FYI, notable plugins installed include:
 
-* [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) (of course) - radiation, craters, local chat, fallout shelters (slightly customized)
+* [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) (of course) - radiation, craters, local chat, fallout shelters ([slightly customized](http://imgur.com/a/DO0pe))
 * [RadioBeacon](http://dev.bukkit.org/server-mods/radiobeacon/) - radio towers, relays, portable compass radios
 * [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/) - new enchanted items, rarely found in fallout shelters
 * [Writable](http://dev.bukkit.org/server-mods/writable/) - double-right-click to write on paper
