@@ -7,11 +7,12 @@ if you still want to join, read on!
 
 ----
 
-**Server address**: exphc.us.to:1100
+**Server address**: exphc.com:1100
 
 **Required mods**:
 
-*Minecraft 1.1 only (1.2.3 can be downgraded with [MCNostalgia](http://www.minecraftforum.net/topic/800346-tool-mcnostalgia-210-now-works-with-123/))*
+*Minecraft 1.1 only (1.2.3 can be downgraded with [MCNostalgia](http://www.minecraftforum.net/topic/800346-tool-mcnostalgia-210-now-works-with-123/)
+- for 1.2.3 use [this](http://indieis.me/iimsites/mcnostalgia/MCNostalgia2.1.0.zip))*
 
 * [IndustrialCraft^2](http://wiki.industrial-craft.net/index.php?title=Download#IndustrialCraft.C2.B2) v1.71
 * [RedPower](http://www.eloraam.com/?page_id=130) v2.0pr4d (all modules)
@@ -73,12 +74,14 @@ into the Minecraft root, overwriting the existing config files, or
 
 Nothing to install on your side, but FYI, notable plugins installed include:
 
-* [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) (of course) - radiation, craters, local chat, fallout shelters ([slightly customized](http://imgur.com/a/DO0pe))
+* [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) (of course) - radiation, craters, fallout shelters ([slightly customized](http://imgur.com/a/DO0pe))
 * [RadioBeacon](http://dev.bukkit.org/server-mods/radiobeacon/) - radio towers, relays, portable compass radios
+* [Random Spawn](http://dev.bukkit.org/server-mods/random-spawn/) - start in a random location
 * [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/) - new enchanted items, rarely found in fallout shelters
 * [Writable](http://dev.bukkit.org/server-mods/writable/) - double-right-click to write on paper
 * [SilkSpawners](http://dev.bukkit.org/server-mods/silkspawners/) - harvest mob spawners with silk touch
 * [BetterDispensers](http://dev.bukkit.org/server-mods/betterdispensers/) - dispensers can face straight up/down
+* New unreleased local chat plugin - speak and hear chat messages locally
 * New unreleased trading plugin - a mysterious global trading network survived the calamity. You can access it by ~~standing near a trade terminal (two enderpearls = lapis lazuli block)~~ *(you can now trade anywhere!)*, holding the item(s) you want give in your hand, and typing /want followed by the item you want.
 
 More experimental plugins or mods may be added or removed or nerfed if needed.
@@ -86,3 +89,7 @@ More experimental plugins or mods may be added or removed or nerfed if needed.
 Hope you all enjoy this brand new server. If it sucks or is awesome, please let me know either way, all feedback
 appreciated, any suggestions welcome. I can't promise I'll implement everything or fix all problems,
 but, I'll consider it, and do what I can. Have fun.
+
+
+**Update** 2012/03/08: posted [this submission](http://www.reddit.com/r/cakesminerapocalypse/comments/qn2cs/exphc_first_days_on_the_new_server_a_photo_album/) with screenshots of some of my experiences, a taste of what this server has to offer. [Direct link to album](http://imgur.com/a/jgmvs#0)
+
