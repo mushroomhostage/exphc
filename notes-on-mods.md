@@ -8,7 +8,7 @@
 Major tech mods: (popularized by [Technic](http://www.technicpack.net/) mod pack)
 
 * [IndustrialCraft2](http://wiki.industrial-craft.net/)
- - to fix conflict with Natural Selection, in IC2.cfg change:
+ - to fix conflict with Natural Selection (235, 236), in IC2.cfg change:
  - blockDynamite=199
  - blockDynamiteRemote=200
 * [RedPower2](http://www.eloraam.com/) 
