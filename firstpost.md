@@ -1,3 +1,4 @@
+
 I finally caved and bought a server :). Not sure how well it'll work out, I may completely change it up,
 make it private, pass to someone else, or shut it down at any time. But I have it up and running today, so I figured I'd open
 it up to the readers of this small subreddit, if anyone is interested in a new take on the hardcore
@@ -11,8 +12,7 @@ if you still want to join, read on!
 
 **Required mods**:
 
-*Minecraft 1.1 only (1.2.3 can be downgraded with [MCNostalgia](http://www.minecraftforum.net/topic/800346-tool-mcnostalgia-210-now-works-with-123/)
-- for 1.2.3 use [this](http://indieis.me/iimsites/mcnostalgia/MCNostalgia2.1.0.zip))*
+*Minecraft 1.1 only (newer versions can be downgraded with [MCNostalgia](http://www.minecraftforum.net/topic/800346-tool-mcnostalgia-210-now-works-with-123/) or [MC Downgrader]([MC Downgrader](http://www.minecraftforum.net/topic/284331-tool-mc-downgrader-the-time-machine-for-minecraft/).)*
 
 * [IndustrialCraft^2](http://wiki.industrial-craft.net/index.php?title=Download#IndustrialCraft.C2.B2) v1.71
 * [RedPower](http://www.eloraam.com/?page_id=130) v2.0pr4d (all modules)
@@ -75,13 +75,13 @@ into the Minecraft root, overwriting the existing config files, or
 Nothing to install on your side, but FYI, notable plugins installed include:
 
 * [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) (of course) - radiation, craters, fallout shelters ([slightly customized](http://imgur.com/a/DO0pe))
+* [RealisticChat](http://dev.bukkit.org/server-mods/realisticchat) - local chat, whispering, yelling, megaphones, walkie-talkies, and more
 * [RadioBeacon](http://dev.bukkit.org/server-mods/radiobeacon/) - radio towers, relays, portable compass radios
 * [Random Spawn](http://dev.bukkit.org/server-mods/random-spawn/) - start in a random location
 * [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/) - new enchanted items, rarely found in fallout shelters
 * [Writable](http://dev.bukkit.org/server-mods/writable/) - double-right-click to write on paper
 * [SilkSpawners](http://dev.bukkit.org/server-mods/silkspawners/) - harvest mob spawners with silk touch
 * [BetterDispensers](http://dev.bukkit.org/server-mods/betterdispensers/) - dispensers can face straight up/down
-* New unreleased local chat plugin - speak and hear chat messages locally
 * New unreleased trading plugin - a mysterious global trading network survived the calamity. You can access it by ~~standing near a trade terminal (two enderpearls = lapis lazuli block)~~ *(you can now trade anywhere!)*, holding the item(s) you want give in your hand, and typing /want followed by the item you want.
 
 More experimental plugins or mods may be added or removed or nerfed if needed.
@@ -93,3 +93,4 @@ but, I'll consider it, and do what I can. Have fun.
 
 **Update** 2012/03/08: posted [this submission](http://www.reddit.com/r/cakesminerapocalypse/comments/qn2cs/exphc_first_days_on_the_new_server_a_photo_album/) with screenshots of some of my experiences, a taste of what this server has to offer. [Direct link to album](http://imgur.com/a/jgmvs#0)
 
+**Update** 2012/03/16: new spawning plugin, [Random Spawn](http://dev.bukkit.org/server-mods/random-spawn/)! Apologies to those who died falling from the sky while I was configuring this plugin - it should work now and spawn you in a safe place - please let me know of any problems. Also added an initial version of a new experimental local chat plugin.
