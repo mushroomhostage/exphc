@@ -1,0 +1,5 @@
+[i]Thousands of years have passed since the calamity… one of the fortunate survivors, you awake in a changed world. Few signs of human life, but nature has rebounded well, wild animals and fruit trees have flourished well. But the radioactive craters remain, posing a significant danger should you stumble across one… or you may be lucky enough to find an old long-abandoned fallout shelter, stocked full of useful supplies… or another player, hostile or friendly, who knows?
+
+The future is in your hands. Whether you would like to seek out other players using radio towers and walkie talkies to band together and rebuild civilization with high-tech industry and plastics and railway networks, roam the land in your high-speed aircraft dropping bombs raiding stealing destroying with your musket or blunderbuss just to watch the world burn, or attempt to live a quiet life in solitude among the wild deer and turkeys, carefully tending to your garden, eating hamburgers and drinking tea in the afternoon – the choice is yours, on the one-and-only Experimental Hardcore Post-Apocalyptic Server.
+[/i]
+
