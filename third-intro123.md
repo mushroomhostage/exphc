@@ -4,7 +4,8 @@
 in outer space, awaking in a changed world. 
 Few signs of human life, but nature has rebounded well: the jungles, wild berries, and fruit trees have flourished. But the radioactive 
 craters remain, posing a significant danger should you stumble across one... or you may be lucky enough to find an old 
-long-abandoned fallout shelter, stocked full of useful supplies... or another player, hostile or friendly, who knows?*
+long-abandoned fallout shelter, stocked full of 
+[useful supplies](http://imgur.com/a/xnY6g/)... or another player, hostile or friendly, who knows?*
 
 *The future is in your hands. Whether you would like to seek out other players using radio towers and walkie talkies to 
 band together and rebuild civilization with high-tech industry, drift over the land in your hot air balloon 
@@ -109,7 +110,7 @@ ExpHC has been finally updated to Minecraft 1.2.3! A brand new world awaits you,
 
 **Mod/Plugin Information**:
 
-Mod documentation for your reference:
+Documentation on mods, for your reference:
 
 * [IndustrialCraft^2](http://wiki.industrial-craft.net/index.php?title=Main_Page)
  * [CompactSolars](http://forum.industrial-craft.net/index.php?page=Thread&postID=42234#post42234)
