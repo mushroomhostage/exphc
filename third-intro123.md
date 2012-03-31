@@ -1,6 +1,6 @@
 
 
-*Thousands of years have passed since the calamity... one of the fortunate survivors, you regain consciousness drifting
+*Thousands of years have passed since the incident... one of the fortunate survivors, you regain consciousness drifting
 in outer space, awaking in a changed world. 
 Few signs of human life, but nature has rebounded well: the jungles, wild berries, and fruit trees have flourished. But the radioactive 
 craters remain, posing a significant danger should you stumble across one... or you may be lucky enough to find an old 
@@ -16,9 +16,10 @@ to your bees and tree farms with automated pipes and redstone contraptions
 
 ExpHC has been finally updated to Minecraft 1.2.3! A brand new world awaits you, with all new & updated mods and plugins.
 
-**Required mods**:
+**Server address**: exphc.com:1230 (whitelisted, see end of post)
 
-Download the following files:
+
+**Required mods**:
 
 * [ModLoader 1.2.3.zip](http://www.mediafire.com/download.php?t93tjpkjae5u7if)
 * [ModLoaderMp 1.2.3 v2 Unofficial Client.zip](http://www.mediafire.com/?cump3vpcibw69pe)
@@ -55,7 +56,7 @@ Download the following files:
 * [WirelessRedstoneClient.zip](http://minecraft.ali4z.com/downloads/1.5/1_2_3/WirelessRedstoneClient.zip)
 * [animalbikes 1.11.0.zip](http://www.mediafire.com/download.php?qta17o75r3997ua)
 
-**Launcher**:
+**Setup Instructions**:
 
 1. Run [SKMCLauncher.jar](http://www.minecraftforum.net/topic/1104030-launcher-sks-launcher-v313-easily-install-mods-update-mc-open-source/)
 1. Addons... > Install... > choose each of the above files, in order
@@ -75,20 +76,76 @@ Download the following files:
  * add [NotEnoughItems-Client 1.2.0.zip](http://www.chickenbones.craftsaddle.org/Files/NEI/NotEnoughItems-Client%201.2.0.zip) 
 * [Optifine](http://www.minecraftforum.net/topic/249637-11-optifine-hd-d6-fps-boost-hd-textures-aa-af/)
  * add
-[OptiFine_1.2.3_HD_MT_B.zip](http://optifine.net/adloadba.php?f=OptiFine_1.2.3_HD_MT_B.zip) or others
+[OptiFine\_1.2.3\_HD\_MT\_B.zip](http://optifine.net/adloadba.php?f=OptiFine_1.2.3_HD_MT_B.zip) or others
  * try the alternate editions if you have trouble or see graphical glitches
 * [MAtmos](http://www.minecraftforum.net/topic/379925-124-matmos-r12-environmental-sound-atmosphere-simulator/)
  * unzip into Minecraft root:
-[MAtmos__1_2_3_r11.zip](http://www.mediafire.com/?w7ry628h8kky9xn) (do *not* add in SK's Launcher or *mods* folder)
+[MAtmos\__1\_2\_3\_r11.zip](http://www.mediafire.com/?w7ry628h8kky9xn) (do *not* add in SK's Launcher or *mods* folder)
 * [Rei's Minimap](http://www.minecraftforum.net/topic/482147-12412311100-mar25-reis-minimap-v30-04/)
  * add [(1.2.3) ReiMinimap_v3.0_03.zip](http://dl.dropbox.com/u/34787499/minecraft/%5B1.2.3%5DReiMinimap_v3.0_03.zip)
 * [Smart Moving](http://www.minecraftforum.net/topic/361430-124smp-smart-moving/)
  * add [MC 1.2.3 - Player API client 1.2.zip](http://dl.dropbox.com/u/41082508/Minecraft/Modding/Player%20API/MC%201.2.3%20-%20Player%20API%20client%201.2.zip)
  * download [MC 1.2.3 - Smart Moving 7.2.zip](http://dl.dropbox.com/u/41082508/Minecraft/Modding/Smart%20Moving/MC%201.2.3%20-%20Smart%20Moving%207.2.zip)
  * add "SmartMoving Client for ModLoaderMp.zip" from "MC 1.2.3 - Smart Moving 7.2.zip"
+* No other client mods, please -- but see [proposed mods](https://github.com/mushroomhostage/exphc/wiki/Proposed-mods)
+
+**Rules**:
+
+* No hacking, cheating, exploiting, x-ray, or unauthorized client mods
+* No excessively lagging the server
+* Violation of rules = permban
+* Stealing, raiding, robbing, killing, griefing is allowed - this is *hardcore*
+* Coordinate sharing is allowed, anywhere 
+* Rules subject to change at any time
+
+**General Information**:
+
+* PvP enabled and difficulty set to maximum 
+* 16,000 x 16,000 map + random spawn (or at bed)
+* Death ban 5 minutes
+* Professionally hosted VDS with 1 Gbps uplink
+* 8 GB memory with eight-core Intel Xeon 3.07 GHz processor
+* Hosted in the west coast (USA)
+
+**Mod/Plugin Information**:
+
+Mod documentation for your reference:
+
+* [IndustrialCraft^2](http://wiki.industrial-craft.net/index.php?title=Main_Page)
+ * [CompactSolars](http://forum.industrial-craft.net/index.php?page=Thread&postID=42234#post42234)
+ * [Electric Fishing Pole](http://forum.industrial-craft.net/index.php?page=Thread&threadID=919)
+ * [Charging Bench](http://forum.industrial-craft.net/index.php?page=Thread&threadID=929)
+* [Buildcraft](http://www.mod-buildcraft.com/)
+ * [Power Converters](http://www.minecraftforum.net/topic/119361-124-tehkrushs-mods-timber-updated/#Power_Converters)
+* [RedPower](http://integratedredstone.wikispaces.com/)
+ * [Tube Stuff](http://www.minecraftforum.net/topic/1001131-110123-immibiss-mods-smp/)
+* [Forestry](http://forestry.sengir.net/wiki/)
+* [IronChests](http://www.minecraftforum.net/topic/981855-124-forge-sspsmpbukkit-ironchests-32/)
+* [ComeCloser](http://www.minecraftforum.net/topic/754668-darkguardsmans-smp-mods/)
+* [Dynamic Elevators](http://www.minecraftforum.net/topic/302018-123110-ironclad49ers-mods/#elevators)
+* [Wireless Redstone](http://www.minecraftforum.net/topic/328725-124wireless-redstone-v15/)
+* [Trees++](http://www.minecraftforum.net/topic/1028159-124trees-v1330-forgesmpbukkit36-trees7-biomes/)
+* [Hot Air Balloons](http://www.minecraftforum.net/topic/214108-123-hot-air-balloons-v206-multiplayer-smp/)
+* [AnimalBikes](http://www.minecraftforum.net/topic/762794-124-animal-bikes-v1111-sspsmp-added-iron-golem/)
+
+Notable server plugins:
+
+* [Cake's Miner Apocalypse](http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/) - chainmail, craters, dirty bombs, fallout shelters ([new loot](http://imgur.com/a/xnY6g/))
+* [CakeMushroom's RealisticChat](http://dev.bukkit.org/server-mods/realisticchat) - local chat, whispering, yelling, bullhorns, walkie talkies
+* [Random Spawn](http://dev.bukkit.org/server-mods/random-spawn/) - start in a randomized safe location
+* [RadioBeacon](http://dev.bukkit.org/server-mods/radiobeacon/) - radio towers, relays, portable compass radios
+* [AtmosphericHeights](http://dev.bukkit.org/server-mods/atmosphericheights/) - thinner air at higher elevations
+* [PotionsPlus](http://dev.bukkit.org/server-mods/potionsplus/) - new potions, rarely found in fallout shelters
+* [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/) - new enchanted items, rarely found in fallout shelters
+* [SilkSpawners](http://dev.bukkit.org/server-mods/silkspawners/) - silk touch picks up monster spawners
+* [TrainCarts](http://dev.bukkit.org/server-mods/traincarts/) - linked minecarts
+* Exclusive trading plugin - the last remnants of infrastructure intact after the calamity.. a global trade network
+accessible by holding an item in your hand you want to offer, then typing "/want" followed by the item you want in exchange.
 
 
 **Questions & Answers**
+
+..skip this wall of text if you don't have any questions :)
 
 *Isn't it too soon to update?* 
 Maybe, but its been about a month since ExpHC 1.1 launched. Time flies eh? ExpHC can't stay on 1.1 forever.. and the time is ripe for change. Also note, a month is a common map reset cycle length on many hardcore servers, so updating at this time isn't all that unusual. Plus ExpHC 1.2.3 offers many compelling improvements over 1.1, dive in and try it out!
@@ -120,15 +177,18 @@ I'm always looking for new mods to install! Any suggestions are welcome. Note ho
 You can post your suggestions or add them to the [proposed mods](https://github.com/mushroomhostage/exphc/wiki/Proposed-mods) list directly.
 Also if you have any proposed server plugins, or even ideas for plugins or mods not yet developed, feel free to ask about it.
 
+Note that with ExpHC 1.1, the setup was so troublesome I was hesitant to make any changes once everyone got setup. With ExpHC 1.2.3 and its easier
+setup process, I'm more willing to add new mods as they become available.
+
 *Can I use my favorite client-side mod on ExpHC?*
 Only if it is listed in the optional mods section. If not, please don't use it until it is added to the list, in order to not gain an unfair advantage over other players without the mod. 
 But if you do have a mod you think would either not give you an unfair advantage or would benefit everyone on the server, feel free to propose it and it'll be considered. 
 Note that Rei's Minimap is now allowed on ExpHC 1.2.3, by popular request.
 
 *How do the new mods on ExpHC 1.2.3 compare to the old mods on ExpHC 1.1?*
-I think they're better :), for the most part. 
-
-see comparison
+I think they're better :), for the most part. I wasn't able to add a few mods from 1.1 I wanted to, but many did update, and for most 
+of those that haven't I was able to find alternatives. Here is a [table comparing ExpHC 1.2.3 and 1.1](https://github.com/mushroomhostage/exphc/wiki/1.2.3-Server-Setup)'s
+mods.
 
 
 *Why the switch from Magic Launcher to SK's Launcher?*
@@ -149,6 +209,27 @@ Personally, I'm planning on [working my way through IndustrialCraft^2](http://wi
 forward to trying out the new [apiculture (beekeeping)](http://forestry.sengir.net/wiki/index.php?n=Category.Apiculture) feature in Forestry.
 
 *Is there a wiki or something where I can share useful tips and tricks for surviving on ExpHC?*
-Yes! [ExpHC now has a wiki](https://github.com/mushroomhostage/exphc/wiki). There isn't much there yet, but it is open for anyone to contribute, offering valuable advice, suggestions, or documenting your experiences. Feel free to edit.
+Yes! [ExpHC now has a wiki](https://github.com/mushroomhostage/exphc/wiki). There isn't much there yet, but it is open for anyone to contribute, offering valuable advice, suggestions, or documenting your experiences.
+Feel free to edit, add new pages, etc.
+
+*I'm all setup but receive a 'You are not white-listed!' error when I try to connect, what gives?*
+See below.
+
+**Whitelist application**:
+
+ExpHC 1.2.3 is now whitelisted, mainly for support purposes. But don't worry, it is easy to get in:
+
+To apply, post "IGN: " followed by your in-game name, and then something besides your name 
+(any suggestions, ideas, other servers
+you've played on, complaints, or even just how much you are looking forward to trying this server, or something
+completely unrelated -- you get the idea,
+anything to help break up the monotony as I go through the whitelist applications). 
+
+You will most likely be accepted except in exceptional circumstances -- this is a hardcore PvP
+server after all, with fewer rules than other servers -- but the few rules it has will be taken
+seriously, see above. 
+
+Until you're added, you can play in SSP and get acquainted with the various mods, but I'll
+add you as soon as I can. Hope everyone enjoys this latest iteration of ExpHC!
 
 
