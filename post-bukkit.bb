@@ -13,6 +13,7 @@ Enjoy playing on hardcore apocalypse servers but looking for advanced gameplay b
 
 What kind of mods, you may be wondering? Only the best:
 
+[list]
 [*][url=http://wiki.industrial-craft.net/index.php?title=Main_Page]IndustrialCraft^2[/url]
 [list]
  [*] [url=http://forum.industrial-craft.net/index.php?page=Thread&postID=42234#post42234]CompactSolars[/url]
@@ -38,15 +39,10 @@ What kind of mods, you may be wondering? Only the best:
 [*] [url=http://www.minecraftforum.net/topic/762794-124-animal-bikes-v1111-sspsmp-added-iron-golem/]AnimalBikes[/url]
 [/list]
 
-In order to run these mods, ExpHC uses CraftBukkit -- meaning not only are the above mods available
-([url=https://github.com/mushroomhostage/exphc/wiki/Mods]more information[/url]),
-but also a handful of customized plugins to provide new mechanics. Most of the 
-[url=http://dev.bukkit.org/home/server-mods/?search=mushroomhostage]plugins I've developed[/url]
-are installed and new plugins or mods may be installed on ExpHC first as I develop or find them;
-ExpHC serves as a sort of testbed.  Notable plugins currently installed include:
+In order to run these mods, ExpHC uses CraftBukkit -- meaning not only are the above mods available ([url=https://github.com/mushroomhostage/exphc/wiki/Mods]more information[/url]), but also a handful of customized plugins to provide new mechanics. Most of the [url=http://dev.bukkit.org/home/server-mods/?search=mushroomhostage]plugins I've developed[/url] are installed and new plugins or mods may be installed on ExpHC first as I develop or find them; ExpHC serves as a sort of testbed.  Notable plugins currently installed include:
 
 [list]
-[*] [url=http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/]Cake's Miner Apocalypse[/url] - chainmail, craters, dirty bombs, fallout shelters ([new loot](http://imgur.com/a/xnY6g/))
+[*] [url=http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/]Cake's Miner Apocalypse[/url] - chainmail, craters, dirty bombs, [url=http://imgur.com/a/xnY6g]customized fallout shelters[/url]
 [*] [url=http://dev.bukkit.org/server-mods/realisticchat]RealisticChat[/url] - local chat, whispering, yelling, bullhorns, walkie talkies, smartphones
 [*] [url=http://dev.bukkit.org/server-mods/radiobeacon/]RadioBeacon[/url] - radio towers, relays, portable compass radios
 [*] [url=http://dev.bukkit.org/server-mods/atmosphericheights/]AtmosphericHeights[/url] - thinner air at higher elevations
@@ -88,5 +84,3 @@ Interested in playing?
 After your client is modded, [i]reply here to be whitelisted[/i], including your in-game name and a brief reason of why you want to join or any kind of other information (anything will do, all I really want is something to break up the monotony of going through whitelist requests). I'll add you as soon as I can and you'll be able to play in no time. 
 
 Hope everyone enjoys this server! It is, as its name implied, experimental -- with a unique mix of mods and plugins -- any feedback is appreciated.
-
-
