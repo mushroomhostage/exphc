@@ -1,5 +1,3 @@
-
-
 *Thousands of years have passed since the incident... one of the fortunate survivors, you regain consciousness drifting
 in outer space, awaking in a changed world. 
 Few signs of human life, but nature has rebounded well: the jungles, wild berries, and fruit trees have flourished. But the radioactive 
@@ -17,8 +15,7 @@ to your bees and tree farms with automated pipes and redstone contraptions
 
 ExpHC has been finally updated to Minecraft 1.2.3! A brand new world awaits you, with all new & updated mods and plugins.
 
-**Server address**: exphc.com:1230 (whitelisted, see end of post)
-
+**Server address**: exphc.com:1230 (whitelisted)
 
 **Required mods**:
 
@@ -88,7 +85,7 @@ ExpHC has been finally updated to Minecraft 1.2.3! A brand new world awaits you,
  * add [MC 1.2.3 - Player API client 1.2.zip](http://dl.dropbox.com/u/41082508/Minecraft/Modding/Player%20API/MC%201.2.3%20-%20Player%20API%20client%201.2.zip)
  * download [MC 1.2.3 - Smart Moving 7.2.zip](http://dl.dropbox.com/u/41082508/Minecraft/Modding/Smart%20Moving/MC%201.2.3%20-%20Smart%20Moving%207.2.zip)
  * add "SmartMoving Client for ModLoaderMp.zip" from "MC 1.2.3 - Smart Moving 7.2.zip"
-* No other client mods, please -- but see [proposed mods](https://github.com/mushroomhostage/exphc/wiki/Proposed-mods)
+* No other client mods, please (see [proposed mods](https://github.com/mushroomhostage/exphc/wiki/Proposed-mods))
 
 **Rules**:
 
@@ -97,32 +94,32 @@ ExpHC has been finally updated to Minecraft 1.2.3! A brand new world awaits you,
 * Violation of rules = permban
 * Stealing, raiding, robbing, killing, griefing is allowed - this is *hardcore*
 * Coordinate sharing is allowed, anywhere 
-* Rules subject to change at any time
+* Rules subject to change 
 
 **General Information**:
 
-* PvP enabled and difficulty set to maximum 
-* 16,000 x 16,000 map + random spawn (or at bed)
-* Death ban 5 minutes
-* Professionally hosted VDS with 1 Gbps uplink
-* 8 GB memory with eight-core Intel Xeon 3.07 GHz processor
-* Hosted in the west coast (USA)
+* PvP enabled, max difficulty
+* 16,000 x 16,000 map + random spawn
+* Death ban 5 min
+* Hosted in USA with 1 Gbps uplink
+* 8 GB memory with eight-core CPU
 
-**Whitelist application**:
+**[Q&A](http://www.reddit.com/r/cakesminerapocalypse/comments/rm108/exphc_updated_to_123_new_map_mods_latest_cma_and/c46we4o)**
 
-ExpHC 1.2.3 is now whitelisted, mainly for support purposes. But don't worry, it is easy to get in:
+**Whitelist Application**:
+
+ExpHC 1.2.3 is now whitelisted, mainly for support. But don't worry, it is easy to get in:
 
 To apply, post "IGN: " followed by your in-game name, and then something besides your name 
-(any suggestions, ideas, other servers
-you've played on, complaints, or even just how much you are looking forward to trying this server, or something
+(suggestions, ideas, complaints, or even just how much you are looking forward to trying this server, or something
 completely unrelated -- you get the idea,
 anything to help break up the monotony as I go through the whitelist applications). 
 
 You will most likely be accepted except in exceptional circumstances -- this is a hardcore PvP
 server after all, with fewer rules than other servers -- but the few rules it has will be taken
-seriously, see above. 
+seriously.
 
 Until you're added, you can play in SSP and get acquainted with the various mods, but I'll
-add you as soon as I can. Hope everyone enjoys this latest iteration of ExpHC!
+add you as soon as I can. 
 
-
+Hope everyone enjoys this latest iteration of ExpHC!
