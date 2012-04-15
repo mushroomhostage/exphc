@@ -1,9 +1,10 @@
 Hey everyone, after seeing all the awesome mods ported here I couldn't resist setting up my own server combining the mods with several plugins and concepts I've been working on. The result: the Experimental Hardcore Post-Apocalyptic Server, or ExpHC for short.
 
-Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maximum difficulty and PvP enabled everywhere and no world protection anywhere. No locked chests, no protected regions, no safe zones. As its a hardcore server, raiding and griefing is allowed, though the server is still fairly young and not much war has erupted yet. To mitigate the anarchy, you [b]spawn in a random location[/b] on the 16,000 x 16,000 map, and deaths result in a 5 minute [b]death ban[/b]. Though you can reach out to other players using radio beacons, walkie talkies, or GPS, stumbling across other players is expected to be rare - in this sense, the server is "[b]post-apocalyptic[/b]" in that you awake in the middle of nowhere with no signs of human life and its up to you to survive.
+Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maximum difficulty and PvP enabled everywhere and no world protection anywhere. No locked chests, no protected regions, no safe zones. As its a hardcore server, raiding and griefing is allowed, though the server is still fairly young and not much war has erupted yet. To mitigate the anarchy, you [b]spawn in a random location[/b] on the 16,000 x 16,000 map, and deaths result in a 5 minute [b]death ban[/b]. You can reach out to other players using radio beacons, walkie talkies, or GPS, since stumbling across other players is expected to be rare - in this sense, the server is "[b]post-apocalyptic[/b]" in that you awake in the middle of nowhere with no signs of human life and its up to you to survive.
+
+This is the second iteration of ExpHC, the first which ran 1.1 - now we're on 1.2.3, with an all-new set of mods and a fresh map. Many of those who have joined so far have enjoyed this server, but its still a fairly small community, so I'm looking for more players. If it this kind of server looks interesting to you, see below for how to apply.
 
 [b]Mods[/b]:
-
 [list]
 [*][url=http://wiki.industrial-craft.net/index.php?title=Main_Page]IndustrialCraft^2[/url]
 [list]
@@ -32,7 +33,6 @@ Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maxi
 
 
 [b]Rules[/b]:
-
 [list]
 [*] No hacking, cheating, exploiting, x-ray, or unauthorized client mods
 [*] No excessively lagging the server
@@ -41,7 +41,6 @@ Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maxi
 [*] Stealing, raiding, robbing, killing, griefing is allowed - this is [u]hardcore[/u]
 [*] Rules subject to change
 [/list]
-
 
 [b]General Information[/b]:
 [list]
@@ -54,10 +53,11 @@ Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maxi
 
 [b]How to Join[/b]:
 
-Install the mods as described on the [url=https://github.com/mushroomhostage/exphc/wiki/Setup]setup page[/url]. 
+[list type=decimal]
+[li]Install the mods as described on the [url=https://github.com/mushroomhostage/exphc/wiki/Setup]setup page[/url]. [/li]
+[li]Reply here with your IGN and how excited you are to be play, and I'll add you to the whitelist as soon as I can.[/li]
+[li]Connect to server address: [b]exphc.com:1230[/b] (whitelisted)[/li]
+[/list]
 
-Reply here with your IGN and how excited you are to be play, and I'll add you to the whitelist as soon as I can.
-
-Server address: [b]exphc.com:1230[/b] (whitelisted)
 
 For more information, check out the website: [b][url=http://www.exphc.com/]www.exphc.com[/url][/b]
