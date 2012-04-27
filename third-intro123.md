@@ -1,17 +1,20 @@
-*Thousands of years have passed since the incident... one of the fortunate survivors, you regain consciousness drifting
-in outer space, awaking in a changed world. 
-Few signs of human life, but nature has rebounded well: the jungles, wild berries, and fruit trees have flourished. But the radioactive 
-craters remain, posing a significant danger should you stumble across one... or you may be lucky enough to find an old 
-long-abandoned fallout shelter, stocked full of 
-useful supplies... or another player, hostile or friendly, who knows?*
+[Anarchy] Experimental Hardcore Post-Apocalyptic Server [Modded] RedPower2 | IndustrialCraft^2 | Buildcraft | Forestry | Trees++ | Hot Air Balloons | AnimalBikes | ComeCloser | radios | custom plugins – 16k spawn, 1 Gbps uplink, 24/7 VDS – ExpHC is ••whitelisted••, apply within! 
 
-*The future is in your hands. Whether you would like to seek out other players using radio towers and walkie talkies to 
+Looking for a hardcore PvP anarchy apocalypse server beyond what vanilla Minecraft has to offer? Try the 
+one and only Experimental Hardcore Post-Apocalyptic Minecraft Server! 
+
+You spawn in a random location (apocalyptic style)
+and are free to do as you please: no world protection, no locked chests, PvP enabled everywhere, stealing and raiding
+allowed (hardcore PvP). 
+
+But this is no ordinary hardcore server: it is heavily modded to provide a more interesting
+experience. You may find wild berries and fruit trees, amongst the radioactive craters and abandoned fallout shelters
+(stocked full of custom loot).. you can seek out other players using radio towers and walkie talkies to 
 band together and rebuild civilization with high-tech industry, drift over the land in your hot air balloon 
-or on the back of an animal exploring the world, or attempt to live a quiet peaceful life in solitude tending
-to your bees and tree farms with automated pipes and redstone contraptions
--- the choice is yours, on the one-and-only Experimental Hardcore Post-Apocalyptic Minecraft Server.*
-
-Interested in joining? Read on! 
+or on the back of an animal exploring the world, fight monsters or other players using nanosabers and
+quantum nanosuits, or attempt to live a quiet peaceful life in solitude tending
+to your bees and tree farms with automated pipes and advanced redstone contraptions. It is up to you --
+there is much, much more to do than in vanilla Minecraft.
 
 ExpHC 1.2.3 runs the following mods:
 
@@ -68,18 +71,8 @@ accessible by holding an item in your hand you want to offer, then typing "/want
 Getting setup to connect to ExpHC has never been easier. Simply download the files and add them in the launcher as detailed in the [setup instructions](https://github.com/mushroomhostage/exphc/wiki/Setup).
 
 ExpHC 1.2.3 is whitelisted, mainly for support. But don't worry, it is easy to get added:
-
-To apply, reply here with your in-game name, and then something besides your name 
-(suggestions, ideas, complaints, or even just how much you are looking forward to trying this server, or something
-completely unrelated -- you get the idea,
-anything to help break up the monotony as I go through the whitelist applications). 
-
-You will most likely be accepted except in exceptional circumstances -- this is a hardcore PvP
-server after all, with fewer rules than other servers -- but the few rules it has will be taken
-seriously.
-
-Until you're added, you can play in SSP and get acquainted with the various mods, but I'll
-add you as soon as I can.
+*just reply here with your in-game name*, and I'll add you as soon as I can.
+Until you're added, you can play in SSP and get acquainted with the various mods.
 
 Once you are whitelisted, you can connect at:
 
@@ -87,4 +80,6 @@ Once you are whitelisted, you can connect at:
 
 For more information, see the official website at ***[www.exphc.com](http://www.exphc.com/)***.
 
-Thanks for reading, and hope you enjoy this new server!
+Thanks for reading, and hope you enjoy this server!
+
+
