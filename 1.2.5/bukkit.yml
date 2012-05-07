@@ -32,7 +32,7 @@ ticks-per:
   animal-spawns: 400
   monster-spawns: 1
 auto-updater:
-  enabled: true
+  enabled: false
   on-broken:
   - warn-console
   - warn-ops
