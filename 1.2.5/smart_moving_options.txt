@@ -943,7 +943,7 @@ move.config.key.name:e:Easy;h:Hard;m:Medium
 move.config.chat:true
 
 # To switch on/off the initial option status message when starting a game (Relevant only if "move.config.chat" is not false)
-move.config.chat.init:true
+move.config.chat.init:false
 
 # To switch on/off the initial option help message (Relevant only if "move.config.chat.init" is not false)
 move.config.chat.init:true
