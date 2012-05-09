@@ -357,7 +357,6 @@ move.fall.distance.minimum:3
 move.fall.animation:true
 
 # Minimum fall distance for the smart falling animation (>= 0, >= "move.fall.animation.distance.minimum"
-#!!! Interpreted value "0.0" was out of range, used minimum value "0" instead !!!#
 move.fall.animation.distance.minimum:3
 
 
@@ -946,7 +945,7 @@ move.config.chat:true
 move.config.chat.init:false
 
 # To switch on/off the initial option help message (Relevant only if "move.config.chat.init" is not false)
-move.config.chat.init:true
+move.config.chat.init:false
 
 # To switch on/off the server config overridden status message when joining a multiplayer game (Relevant only if "move.config.chat" is not false)
 move.config.chat.server:true
