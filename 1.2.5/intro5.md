@@ -42,6 +42,7 @@ You may find tropical forests with wild berries and fruit trees, amongst the cra
 * [PotionsPlus](http://dev.bukkit.org/server-mods/potionsplus/) - new potions, rarely found in fallout shelters
 * [EnchantMore](http://dev.bukkit.org/server-mods/enchantmore/) - new enchanted items, rarely found in fallout shelters
 * [BetterDispensers](http://dev.bukkit.org/server-mods/betterdispensers/) - vertical dispensers and more
+* [QuickBench](http://dev.bukkit.org/server-mods/quickbench) - crafting without recipes
 * [Chestpack](http://dev.bukkit.org/server-mods/chestpack/) - wear a chest on your chest 
 * [SilkSpawners](http://dev.bukkit.org/server-mods/silkspawners/) - silk touch picks up monster spawners
 * Exclusive trading plugin - the last remnants of infrastructure intact after the calamity.. a global trade network
