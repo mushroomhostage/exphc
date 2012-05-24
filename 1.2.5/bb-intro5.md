@@ -1,8 +1,8 @@
-Looking for a hardcore PvP anarchy apocalypse server beyond what vanilla Minecraft has to offer? Try the one and only Experimental Hardcore Post-Apocalyptic Minecraft Server, now running 1.2.5! Same map, all new mods.
+Hey everyone, after seeing all the awesome mods ported here I couldn't resist setting up my own server combining the mods with several plugins and concepts I've been working on. The result: the Experimental Hardcore Post-Apocalyptic Server, or ExpHC for short.
 
-You spawn in a random location (apocalyptic style, global chat disabled) and are free to do as you please: no world protection, no locked chests, PvP enabled everywhere, stealing and raiding allowed (hardcore PvP).
+Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maximum difficulty and PvP enabled everywhere and no world protection anywhere. No locked chests, no protected regions, no safe zones. As its a hardcore server, raiding and griefing is allowed, though the server is still fairly peaceful and not much war has erupted yet. To mitigate the anarchy, you [b]spawn in a random location[/b] on the 16,000 x 16,000 map, and deaths result in a 5 minute [b]death ban[/b]. You can reach out to other players using radio beacons, walkie talkies, or GPS, since stumbling across other players is expected to be rare - in this sense, the server is "[b]post-apocalyptic[/b]" in that you awake in the middle of nowhere with no signs of human life and its up to you to survive.
 
-But this is no ordinary hardcore server: it is heavily modded to provide a more exciting experience. What mods, you may ask?
+This is the third iteration of ExpHC, now running 1.2.5. Same map, all new mods:
 
 [list]
 [*] Technology: [url=http://wiki.industrial-craft.net/index.php?title=Main_Page]IndustrialCraft^2[/url], [url=http://www.mod-buildcraft.com/]Buildcraft[/url], [url=http://integratedredstone.wikispaces.com/]RedPower[/url], [url=http://forestry.sengir.net/wiki/]Forestry[/url], [url=https://github.com/balr0g/MineFactoryReloaded/wiki]MineFactory Reloaded[/url]
@@ -14,6 +14,8 @@ But this is no ordinary hardcore server: it is heavily modded to provide a more 
 [/list]
 
 You may find tropical forests with wild berries and fruit trees, amongst the craters and abandoned fallout shelters (stocked full of custom loot).. you can seek out other players using radio towers and walkie talkies to band together and rebuild civilization with high-tech industry and infrastructure, drift over the land in your hot air balloon or helicopter or on the back of an animal exploring the world or nether, fight monsters or other players using bayonets and crossbows and nanosabers, or attempt to live a quiet peaceful life in solitude tending to your bees and tree farms with automated pipes and advanced redstone contraptions in your fully-furnished carefully built home. It is up to you -- and there is much, much more to do than in vanilla Minecraft.
+
+Many of those who have joined so far have enjoyed this server, but its still a fairly small community, so I'm looking for more players. If it this kind of server looks interesting to you, see below for how to apply.
 
 [b]Rules[/b]:
 
