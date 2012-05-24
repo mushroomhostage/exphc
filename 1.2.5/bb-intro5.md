@@ -1,3 +1,5 @@
+[1.2.5] ExpHC: IC2•RP2•BC•Forestry•HAB•Trees++•THX•JFM•BWM•Mo' Creatures•&more
+
 Hey everyone, after seeing all the awesome mods ported here I couldn't resist setting up my own server combining the mods with several plugins and concepts I've been working on. The result: the Experimental Hardcore Post-Apocalyptic Server, or ExpHC for short.
 
 Unlike many (most?) modded servers, ExpHC is [b]hardcore survival[/b], with maximum difficulty and PvP enabled everywhere and no world protection anywhere. No locked chests, no protected regions, no safe zones. As its a hardcore server, raiding and griefing is allowed, though the server is still fairly peaceful and not much war has erupted yet. To mitigate the anarchy, you [b]spawn in a random location[/b] on the 16,000 x 16,000 map, and deaths result in a 5 minute [b]death ban[/b]. You can reach out to other players using radio beacons, walkie talkies, or GPS, since stumbling across other players is expected to be rare - in this sense, the server is "[b]post-apocalyptic[/b]" in that you awake in the middle of nowhere with no signs of human life and its up to you to survive.
