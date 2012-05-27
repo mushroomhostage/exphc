@@ -1,4 +1,4 @@
-[1.2.5]ExpHC: Hardcore Post-Apocalyptic Guns•Helicopters•IC^2•Buildcraft•Trees++•Hot Air Balloons&more
+[1.2.5]ExpHC: Hardcore Post-Apocalyptic Guns•Helicopters•IC^2•Buildcraft•Trees++•Mo' Creatures&more
 
 Enjoy playing on hardcore apocalypse servers but looking for advanced gameplay beyond what vanilla Minecraft has to offer? Try the Experimental Hardcore Post-Apocalyptic Server! ExpHC is:
 
