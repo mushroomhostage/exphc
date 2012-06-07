@@ -1338,7 +1338,7 @@ items:
   '7291':
     name: CoalCoke
   181;5:
-    name: CRYSTAL
+    name: CrystalChest
   238;2:
     name: Accelerator
   136;7691:
@@ -1636,7 +1636,7 @@ items:
   136;8471:
     name: StoneBrickHollowTriplePanel
   181;4:
-    name: SILVER
+    name: SilverChest
   1458;0:
     name: KaevLimeWoolSlopesTruncCornerDown
   136;9986:
@@ -1668,7 +1668,7 @@ items:
   '4056':
     name: WoodenGear
   181;3:
-    name: COPPER
+    name: CopperChest
   '13811':
     name: CratedSeeds
   136;11026:
@@ -2578,7 +2578,7 @@ items:
   '7314':
     name: BoreHeadDiamond
   181;0:
-    name: IRON
+    name: IronChest
   136;11297:
     name: OrangeWoolPillar
   136;16661:
@@ -3088,7 +3088,7 @@ items:
   136;4648:
     name: LightGrayWoolCoverCorner
   181;1:
-    name: GOLD
+    name: GoldChest
   '6302':
     name: SofaCenter
   136;5923:
@@ -4714,7 +4714,7 @@ items:
   '20008':
     name: CHoe
   181;2:
-    name: DIAMOND
+    name: DiamondChest
   136;11063:
     name: EmeraldBlockPost
   251;8:
