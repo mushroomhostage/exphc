@@ -1,12 +1,11 @@
-Welcome to the Experimental Hardcore Post-Apocalyptic Server, bringing you a unique experience in the hardcore apocalyptic Minecraft server genre. ExpHC is:
+[1.2.5] ExpHC: Hardcore Post-Apocalyptic •IC2•CompactSolars•NuclearControl•ChargingBench•SeedManager•Berries++•ExperiMint•HelperCrops• Buildcraft•RedPower•Forestry•Hot Air Balloons•Railcraft•AnimalBikes•SmartMoving•Trees++•Jammy Furniture•Mo' Creatures•WeaponMod•THX Helicopter•WRCBE•more
 
+Welcome to the Experimental Hardcore Post-Apocalyptic Server, bringing you a unique experience in the hardcore apocalyptic Minecraft server genre. 
 [list]
 [*] [b]hardcore[/b]: maximum difficulty, PvP enabled, stealing, raiding, griefing allowed, no world protection, death bans
-[*] [b]apocalyptic[/b]: random spawn, generated fallout shelters, radioactive craters, and rare abandoned structures
+[*] [b]apocalyptic[/b]: random spawn, local chat, generated fallout shelters, craters, and rare abandoned structures
 [/list]
-
-... and runs IndustrialCraft^2 1.95b, with a handful of add-ons:
-
+ExpHC runs IndustrialCraft^2 1.95b and a handful of add-ons:
 [list]
 [*][url=http://forum.industrial-craft.net/index.php?page=Thread&postID=42234#post42234]CompactSolars[/url]
 [*][url=http://forum.industrial-craft.net/index.php?page=Thread&threadID=5915]Nuclear Control[/url] 
@@ -18,9 +17,7 @@ Welcome to the Experimental Hardcore Post-Apocalyptic Server, bringing you a uni
 [*][url=http://forum.industrial-craft.net/index.php?page=Thread&threadID=5045]ExperiMint[/url] 
 [*][url=http://forum.industrial-craft.net/index.php?page=Thread&threadID=5043]HelperCrops[/url] 
 [/list]
-
-... with a carefully curated set of of additional mods to provide a rich and exciting experience:
-
+With a carefully curated set of of additional mods to provide a rich and exciting experience:
 [list]
 [*] Technology: [url=http://wiki.industrial-craft.net/index.php?title=Main_Page]IndustrialCraft^2[/url], [url=http://www.mod-buildcraft.com/]Buildcraft[/url], [url=http://integratedredstone.wikispaces.com/]RedPower[/url], [url=http://forestry.sengir.net/wiki/]Forestry[/url], [url=https://github.com/balr0g/MineFactoryReloaded/wiki]MineFactory Reloaded[/url]
 [*] Transport:  [url=http://www.minecraftforum.net/topic/1231648-125-hot-air-balloons-v21-forge-multiplayer-smp/]Hot Air Balloons[/url], [url=http://railcraft.wikispaces.com/]Railcraft[/url], [url=http://www.minecraftforum.net/topic/762794-125-animal-bikes-sspsmp-added-dinos-and-a-bunny-also-now-with-forge-support/]AnimalBikes[/url], [url=http://www.minecraftforum.net/topic/361430-125smp-smart-moving/]Smart Moving[/url]
@@ -32,6 +29,7 @@ Welcome to the Experimental Hardcore Post-Apocalyptic Server, bringing you a uni
 
 Full list of mods with versions:
 [spoiler]
+Required:
 1.2.5_Jammy_Furniture_Mod_Client_V3.6.zip
 4096-Fix-v4.0-mc1.2.5.zip
 AdvancedMachinesClient v1.5.zip
@@ -51,16 +49,12 @@ IC2NuclearControl_client_v1.1.8.zip
 InvTweaks-1.41b-1.2.4.zip
 Kaevator-SuperSlopes-1.2.5-191-193,210-212.zip
 LCTrees++ v1.3.35 client [1.2.5] (132-135,169-178,184-187).zip
-MAtmos_packaged.zip
 MC 1.2.5 - Player API client 1.0.zip
 MC 1.2.5 - Smart Moving 8.8 - Smart Moving Client for ModLoader.zip
 MineFactoryReloaded_Client_1.5.2.zip
 ModLoader.zip
-NEI_RailCraftPlugin 1.2.2.1.zip
-NEI_RedPowerPlugin 1.2.2.3.zip
 NetherOres_Client_1.2.1.zip
 Netherrocks 1.0.2 Client Forge.zip
-NotEnoughItems-Client 1.2.2.4.zip
 OptiFine_1.2.5_HD_MT_A6.zip
 PluginsforForestry1.1c_Client.jar
 PowerConverters_Client_1.3.4.zip
@@ -78,7 +72,6 @@ WR-CBE Addons-Client 1.2.0.zip
 WR-CBE Core-Client 1.2.0.zip
 WR-CBE RedPower-Client 1.2.0.zip
 WeaponMod.zip
-[1.2.5]ReiMinimap_v3.1.zip
 buildcraft-C-additionalbuildcraftobjects-f312@94bc2214-97.zip
 buildcraft-client-A-core-2.2.14.zip
 buildcraft-client-B-builders-2.2.14.zip
@@ -100,7 +93,15 @@ tubestuff_49.0.5_for_1.2.5-client.jar
 turbomodelthingy-v2.3.7-1.2.5.zip
 zcharcoaldust-1.2-client.zip
 
-Configuration: https://github.com/downloads/mushroomhostage/exphc/exphc-config-1.2.5rev3.zip
+Recommended:
+[1.2.5]ReiMinimap_v3.1.zip
+NotEnoughItems-Client 1.2.2.4.zip
+NEI_RailCraftPlugin 1.2.2.1.zip
+NEI_RedPowerPlugin 1.2.2.3.zip
+MAtmos_packaged.zip
+
+Configuration: 
+https://github.com/downloads/mushroomhostage/exphc/exphc-config-1.2.5rev3.zip
 [/spoiler]
 
 [b]Rules[/b]:
@@ -137,12 +138,12 @@ That's right, ExpHC runs Bukkit. Not for world protection (its a hardcore server
 [*] [url=http://dev.bukkit.org/server-mods/quickbench]QuickBench[/url] - crafting without recipes
 [*] [url=http://dev.bukkit.org/server-mods/chestpack/]Chestpack[/url] - wear a chest on your chest 
 [*] [url=http://dev.bukkit.org/server-mods/silkspawners/]SilkSpawners[/url] - silk touch picks up monster spawners
-[*] Exclusive trading plugin - the last remnants of infrastructure intact after the calamity.. a global trade network accessible by holding an item in your hand you want to offer, then typing "/want" followed by the item you want in exchange.
+[*] Exclusive trading plugin - a global trade network accessible by holding an item in your hand you want to offer, then typing "/want" followed by the item you want in exchange.
 [/list]
 
 [b]How to Join[/b]:
 
-1. Post your Minecraft name as a reply here or [url=http://www.reddit.com/r/mcservers/comments/tjbli/anarchy_experimental_hardcore_postapocalyptic/]here[/url], asking to join
+1. Post your Minecraft name as a reply to this post, or [url=http://www.reddit.com/r/mcservers/comments/tjbli/anarchy_experimental_hardcore_postapocalyptic/]here[/url], asking to join
 
 2. Follow the instructions I will send you to mod your client
 
@@ -152,5 +153,5 @@ That's right, ExpHC runs Bukkit. Not for world protection (its a hardcore server
 
 [url=http://minestatus.net/27882-experimental-hardcore-post-apocalyptic-server-exphc][img]http://minestatus.net/27882-experimental-hardcore-post-apocalyptic-server-exphc/image/original.png[/img][/url]
 
-For more information, check out the official website at http://www.exphc.com/.
+For more information, check out the official website at [url=http://www.exphc.com/]http://www.exphc.com/[/url].
 
