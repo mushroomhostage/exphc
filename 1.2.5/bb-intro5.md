@@ -40,7 +40,7 @@ Many of those who have joined so far have enjoyed this server, but its still a f
 
 [b]Server Plugins[/b]:
 
-[list][*] [url=http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/]Cake's Miner Apocalypse[/url] - generated fallout shelters with [custom loot]([url=http://imgur.com/a/xnY6g/]http://imgur.com/a/xnY6g/[/url])
+[list][*] [url=http://dev.bukkit.org/server-mods/cakes-miner-apocalypse/]Cake's Miner Apocalypse[/url] - generated fallout shelters with [url=http://imgur.com/a/xnY6g/]custom loot[/url]
 [*] [url=http://dev.bukkit.org/server-mods/realisticchat]RealisticChat[/url] - local chat, whispering, yelling, bullhorns, walkie talkies, smartphones
 [*] [url=http://dev.bukkit.org/server-mods/radiobeacon/]RadioBeacon[/url] - radio towers, relays, portable compass radios
 [*] [url=http://dev.bukkit.org/server-mods/potionsplus/]PotionsPlus[/url] - new potions, rarely found in fallout shelters
