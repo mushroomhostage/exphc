@@ -1,4 +1,4 @@
-[1.2.5] ExpHC: Hardcore Post-Apocalyptic •IC2•CompactSolars•NuclearControl•ChargingBench•SeedManager•Berries++•ExperiMint•HelperCrops• Buildcraft•RedPower•Forestry•Hot Air Balloons•Railcraft•AnimalBikes•SmartMoving•Trees++•Jammy Furniture•Mo' Creatures•WeaponMod•THX Helicopter•WRCBE•more
+[1.2.5] ExpHC: Hardcore Post-Apocalyptic [PvP] •IC2•CompactSolars•NuclearControl•ChargingBench•SeedManager•Berries++•ExperiMint•HelperCrops• Buildcraft•RedPower•Forestry•Railcraft•AnimalBikes•SmartMoving•Trees++•Mo' Creatures•WeaponMod•THX Helicopter&more!
 
 Welcome to the Experimental Hardcore Post-Apocalyptic Server, bringing you a unique experience in the hardcore apocalyptic Minecraft server genre. 
 [list]
