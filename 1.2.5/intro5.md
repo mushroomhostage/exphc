@@ -71,3 +71,7 @@ For more information, check out the official website at ***[www.exphc.com](http:
 --
 
 **Update 2012/05/21**: Updated a bunch of the mods! If you already setup on the server just *repeat step #1 of the setup instructions* and you should be able to connect again. And then you can enjoy RedPower2 pr5b2, Additional Buildcraft Objects, IC^2 Charcoal Dust, IC^2 Nuclear Control, Jammy Furniture Mod, AnimalBikes, Hot Air Balloons, Smart Moving, and more. As always, any trouble getting setup or problems with the server let me know.
+
+**Update 2012/06/09**: Server has been running great, thanks to all who are playing! Looking into the next mod update, but right now I just updated the smartphones. You can now call other players by speaking their name into a clock (vanilla item), and their phone will ring several times, giving them a chance to answer - if they do, you can talk over arbitrary distances as long as you hold your smartphone in your hand (but be careful about water damage). Hope everyone's enjoying the server so far, if you haven't joined yet feel free to reply here to request whitelisting and I'll send you instructions how to get setup.
+
+**Update 2012/06/15**: Updated mods again! Now running newer versions of Forestry, TubeStuff, Nuclear Control, THX Helicopter, Jammy Furniture, Charging Bench, and also added a handful of new mods: Elemental Creepers, Plugins for Forestry, and IC2 add-ons: Seed Manager, Berries++, HelperCrops, and ExperiMint. *Existing users, simply repeat step #1 of the setup instructions and you should be able to connect again!*
