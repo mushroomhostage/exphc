@@ -1,9 +1,11 @@
+[1.2.5][IC2 v1.97] ExpHC: Hardcore Post-Apocalyptic [PvP] •IC2•GraviSuite•MFFS•CompactSolars•NuclearControl•ChargingBench•SeedManager•Berries++•ExperiMint• Buildcraft•RedPower•Forestry•Railcraft•SmartMoving•Trees++•Mo' Creatures•WeaponMod•Helicopter&more
+
 Welcome to the Experimental Hardcore Post-Apocalyptic Server, bringing you a unique experience in the hardcore apocalyptic Minecraft server genre. 
 [list]
 [*] [b]hardcore[/b]: maximum difficulty, PvP enabled, stealing, raiding, griefing allowed, no world protection, death bans
 [*] [b]apocalyptic[/b]: random spawn, local chat, generated fallout shelters, craters, and rare abandoned structures
 [/list]
-ExpHC runs IndustrialCraft^2 1.95b and a handful of add-ons:
+ExpHC runs IndustrialCraft^2 1.97 and a handful of add-ons:
 [list]
 [*][url=http://forum.industrial-craft.net/index.php?page=Thread&threadID=6915]Gravitation Suite[/url]
 [*][url=http://forum.industrial-craft.net/index.php?page=Thread&threadID=6874]Immibis Modular Forcefields[/url]
