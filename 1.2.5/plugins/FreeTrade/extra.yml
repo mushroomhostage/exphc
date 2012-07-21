@@ -3783,34 +3783,41 @@ items:
     name: 'SaplingxcSap'
   '179;0':
     name: 'TeleportTether'
+  # Shelf FML names - TODO: fix in code, shouldn't return internal class names..
   '180;0':
-    name: 'ShelfxnetxminecraftxserverxBlockWood@77068fce'
+    name: 'WoodenShelf'
   '180;4':
-    name: 'ShelfxnetxminecraftxserverxBlockStone@8a13863'
+    name: 'StoneShelf'
   '180;8':
-    name: 'ShelfxnetxminecraftxserverxBlock@1cad21e7'
+    name: 'BrickShelf'
   '180;12':
-    name: 'ShelfxnetxminecraftxserverxBlockObsidian@2237806b'
+    name: 'ObsidianShelf'
+
+  # Iron Chests - TODO: submit PR to add more descriptive Chest name to enum..
   '181;0':
-    name: 'IRON'
+    name: 'IronChest'
   '181;1':
-    name: 'GOLD'
+    name: 'GoldChest'
   '181;2':
-    name: 'DIAMOND'
+    name: 'DiamondChest'
   '181;3':
-    name: 'COPPER'
+    name: 'CopperChest'
   '181;4':
-    name: 'SILVER'
+    name: 'SilverChest'
   '181;5':
-    name: 'CRYSTAL'
+    name: 'CrystalChest'
+
   '182;0':
     name: 'SupportFrame'
+
+  # IC2 CompactSolars - TODO: submit another PR for better names, SolarArray
   '183;0':
-    name: 'LV'
+    name: 'LVSolarArray'
   '183;1':
-    name: 'MV'
+    name: 'MVSolarArray'
   '183;2':
-    name: 'HV'
+    name: 'HVSolarArray'
+
   '184;0':
     name: 'PlankxbrownPlank'
   '184;1':
@@ -3911,20 +3918,21 @@ items:
     name: 'id192x6'
   '193;0':
     name: 'SeedManager'
+  # Immibis TubeStuff - TODO: submit PR for real names, not 62x..
   '194;0':
-    name: '62x0'
+    name: 'TubeStuffBuffer'
   '194;1':
-    name: '62x1'
+    name: 'AutomaticCraftingMkII'
   '194;2':
-    name: '62x2'
+    name: 'BlackHoleChest'
   '194;3':
-    name: '62x3'
+    name: 'Incinerator'
   '194;4':
-    name: '62x4'
+    name: 'Duplicator'
   '194;5':
-    name: '62x5'
-  '194;6':
-    name: 'id194x6'
+    name: 'Retrievulator'
+  #'194;6':
+  #  name: 'id194x6'  # not a real block TODO: submit fix to raise error
   '195;0':
     name: 'IOExpander'
   '196;0':
@@ -3970,25 +3978,21 @@ items:
   '198;9':
     name: 'Resourcex9'
   '199;0':
-    name: 'OreCopperx0'
+    name: 'ForestryCopperOre'
   '199;1':
-    name: 'OreCopperx1'
+    name: 'ForestHive'
   '199;2':
-    name: 'OreCopperx2'
+    name: 'MeadowsHive'
   '199;3':
-    name: 'OreCopperx3'
+    name: 'DesertHive'
   '199;4':
-    name: 'OreCopperx4'
+    name: 'JungleHive'
   '199;5':
-    name: 'OreCopperx5'
+    name: 'EndHive'  # hidden from NEI!
   '199;6':
-    name: 'OreCopperx6'
+    name: 'SnowHive'
   '199;7':
-    name: 'OreCopperx7'
-  '199;8':
-    name: 'OreCopperx8'
-  '199;9':
-    name: 'OreCopperx9'
+    name: 'SwampHive'
   '201;0':
     name: 'Planterx0'
   '201;1':
@@ -5797,8 +5801,6 @@ items:
     name: 'IgneousExtruder'
   '4092;7':
     name: 'AqueousAccumulator'
-  '4092;8':
-    name: ''''
   '4092;16':
     name: 'MachineChassis'
   '4298':
@@ -6578,7 +6580,7 @@ items:
   '27033':
     name: 'Dinobike'
   '30104':
-    name: 'id30104'
+    name: 'DebugItem'    # TODO: what is this? crashes on use
   '30105':
     name: 'WeedEx'
   '30106':
