@@ -1,10 +1,12 @@
 items:
+  # Wireless Redstone
   '126;0':
     name: 'WirelessReceiver'
   '126;256':
     name: 'WirelessTransmitter'
   '126;512':
     name: 'WirelessJammer'
+  # NetherOres
   '127;0':
     name: 'NetherCoal'
   '127;1':
@@ -21,6 +23,7 @@ items:
     name: 'NetherCopper'
   '127;7':
     name: 'NetherTin'
+  # Trees++
   '128;0':
     name: 'CrystalBlockxcblock'
   '128;1':
@@ -91,6 +94,7 @@ items:
     name: 'LeavesxGinkgo'
   '135;7':
     name: 'LeavesxPoplar'
+   # RedPower
   '136;0':
     name: 'CobblestoneCover'
   '136;1':
@@ -3431,6 +3435,7 @@ items:
     name: 'EmeraldBlockJacketedBluewire'
   '136;16952':
     name: 'SapphireBlockJacketedBluewire'
+   # end of RedPower microblocks.. more RedPower
   '137;0':
     name: 'AlloyFurnace'
   '137;1':
@@ -3512,7 +3517,7 @@ items:
   '140;7':
     name: 'NikoliteOre'
   '141;0':
-    name: 'Leaves'
+    name: 'BigRubberTreeLeaves'
   '142;0':
     name: 'Marble'
   '142;1':
@@ -3524,7 +3529,8 @@ items:
   '142;4':
     name: 'BasaltBrick'
   '143;0':
-    name: 'Rubberwood'
+    name: 'BigRubberwood'
+   # ExtraBiomesXL
   '146;0':
     name: 'Crackedsand'
   '147;0':
@@ -3533,20 +3539,7 @@ items:
     name: 'RedCobblestone'
   '147;2':
     name: 'RedRockBrick'
-  '147;3':
-    name: 'Tilexredrockx3'
-  '147;4':
-    name: 'Tilexredrockx4'
-  '147;5':
-    name: 'Tilexredrockx5'
-  '147;6':
-    name: 'Tilexredrockx6'
-  '147;7':
-    name: 'Tilexredrockx7'
-  '147;8':
-    name: 'Tilexredrockx8'
-  '147;9':
-    name: 'Tilexredrockx9'
+   # RedPower
   '148;0':
     name: 'Backplane'
   '148;1':
@@ -3557,6 +3550,7 @@ items:
     name: 'CentralProcessingUnit'
   '149;2':
     name: 'DiskDrive'
+  # Buildcraft
   '150;0':
     name: 'MiningWellBlock'
   '151;0':
@@ -3576,11 +3570,23 @@ items:
   '160;0':
     name: 'FrameBlock'
   '161;0':
-    name: 'EngineWood'
+    name: 'RedstoneEngine'
+    aliases: 
+    - 'WoodEngine'
+    - 'EngineRedstone'
+    - 'EngineWood'
   '161;1':
-    name: 'EngineStone'
-  '161;2':
-    name: 'EngineIron'
+    name: 'SteamEngine'
+    aliases:
+    - 'StoneEngine'
+    - 'EngineSteam'
+    - 'EngineStone'
+  '161;2': 
+    name: 'CombustionEngine'
+    aliases:
+    - 'IronEngine'
+    - 'EngineCombustion'
+    - 'EngineIron'
   '162;0':
     name: 'OilMoving'
   '163;0':
@@ -3591,6 +3597,7 @@ items:
     name: 'TankBlock'
   '167;0':
     name: 'RefineryBlock'
+  # Trees++
   '169;0':
     name: 'LeavesxBeech'
   '169;1':
@@ -3781,9 +3788,12 @@ items:
     name: 'Saplingxblackberry'
   '178;2':
     name: 'SaplingxcSap'
+
+  # Additional Pipes
   '179;0':
     name: 'TeleportTether'
-  # Shelf FML names - TODO: fix in code, shouldn't return internal class names..
+
+  # Shelf FML - TODO: fix in code, shouldn't return internal class names..
   '180;0':
     name: 'WoodenShelf'
   '180;4':
@@ -3818,6 +3828,7 @@ items:
   '183;2':
     name: 'HVSolarArray'
 
+  # Trees++
   '184;0':
     name: 'PlankxbrownPlank'
   '184;1':
@@ -3866,18 +3877,24 @@ items:
     name: 'CrystalTorch'
   '187;0':
     name: 'Crystalgroundcover'
+
+   # RedPower
   '188;0':
     name: 'RubyBlock'
   '188;1':
     name: 'EmeraldBlock'
   '188;2':
     name: 'SapphireBlock'
+
+   # Charging Bench
   '189;0':
-    name: 'BlockChargingBench1'
+    name: 'ChargingBench1'
   '189;1':
-    name: 'BlockChargingBench2'
+    name: 'ChargingBench2'
   '189;2':
-    name: 'BlockChargingBench3'
+    name: 'ChargingBench3'
+
+   # Power Converters
   '190;0':
     name: 'EngineGeneratorLV'
   '190;1':
@@ -3900,8 +3917,8 @@ items:
     name: 'AdvCompressor'
   '191;2':
     name: 'AdvExtractor'
-  '191;3':
-    name: 'Yourmumisfuckingugly'
+
+  # Nuclear Control
   '192;0':
     name: 'BlockThermalMonitor'
   '192;1':
@@ -3918,6 +3935,7 @@ items:
     name: 'id192x6'
   '193;0':
     name: 'SeedManager'
+
   # Immibis TubeStuff - TODO: submit PR for real names, not 62x..
   '194;0':
     name: 'TubeStuffBuffer'
@@ -3933,52 +3951,24 @@ items:
     name: 'Retrievulator'
   #'194;6':
   #  name: 'id194x6'  # not a real block TODO: submit fix to raise error
+  # RedPower
   '195;0':
     name: 'IOExpander'
   '196;0':
     name: 'Rplampon'
+  # Forestry
   '197;0':
-    name: 'Soilx0'
+    name: 'Humus'
   '197;1':
-    name: 'Soilx1'
-  '197;2':
-    name: 'Soilx2'
-  '197;3':
-    name: 'Soilx3'
-  '197;4':
-    name: 'Soilx4'
-  '197;5':
-    name: 'Soilx5'
-  '197;6':
-    name: 'Soilx6'
-  '197;7':
-    name: 'Soilx7'
-  '197;8':
-    name: 'Soilx8'
-  '197;9':
-    name: 'Soilx9'
+    name: 'BogEarth'
   '198;0':
-    name: 'Resourcex0'
+    name: 'ApatiteOre'
   '198;1':
-    name: 'Resourcex1'
-  '198;2':
-    name: 'Resourcex2'
-  '198;3':
-    name: 'Resourcex3'
-  '198;4':
-    name: 'Resourcex4'
-  '198;5':
-    name: 'Resourcex5'
-  '198;6':
-    name: 'Resourcex6'
-  '198;7':
-    name: 'Resourcex7'
-  '198;8':
-    name: 'Resourcex8'
-  '198;9':
-    name: 'Resourcex9'
-  '199;0':
     name: 'ForestryCopperOre'
+  '198;2':
+    name: 'ForestryTinOre'
+  '199;0':
+    name: 'ForestryCopperOreUnused'
   '199;1':
     name: 'ForestHive'
   '199;2':
@@ -3994,87 +3984,66 @@ items:
   '199;7':
     name: 'SwampHive'
   '201;0':
-    name: 'Planterx0'
+    name: 'Arboretum'
   '201;1':
-    name: 'Planterx1'
+    name: 'Farm'
   '201;2':
-    name: 'Planterx2'
+    name: 'RubberFarm'
   '201;3':
-    name: 'Planterx3'
+    name: 'PumpkinFarm'
   '201;4':
-    name: 'Planterx4'
+    name: 'PeatBog'
   '201;5':
-    name: 'Planterx5'
+    name: 'MushroomFarm'
   '201;6':
-    name: 'Planterx6'
-  '201;7':
-    name: 'Planterx7'
-  '201;8':
-    name: 'Planterx8'
-  '201;9':
-    name: 'Planterx9'
+    name: 'InfernalFarm'
   '202;0':
-    name: 'Firsapling'
+    name: 'FirsaplingForestry'
   '203;0':
-    name: 'Harvesterx0'
+    name: 'Logger'
   '203;1':
-    name: 'Harvesterx1'
+    name: 'Combine'
   '203;2':
-    name: 'Harvesterx2'
+    name: 'RubberTreeHarvester'
   '203;3':
-    name: 'Harvesterx3'
+    name: 'PumpkinHarvester'
   '203;4':
-    name: 'Harvesterx4'
+    name: 'Turbary'
   '203;5':
-    name: 'Harvesterx5'
+    name: 'CactiHarvester'
   '203;6':
-    name: 'Harvesterx6'
+    name: 'MushroomPicker'
   '203;7':
-    name: 'Harvesterx7'
+    name: 'SugarCaneHarvester'
   '203;8':
-    name: 'Harvesterx8'
-  '203;9':
-    name: 'Harvesterx9'
+    name: 'InfernalHarvester'
   '204;0':
-    name: 'Enginex0'
+    name: 'BiogasEngine'
   '204;1':
-    name: 'Enginex1'
+    name: 'PeatFiredEngine'
   '204;2':
-    name: 'Enginex2'
-  '204;3':
-    name: 'Enginex3'
-  '204;4':
-    name: 'Enginex4'
-  '204;5':
-    name: 'Enginex5'
-  '204;6':
-    name: 'Enginex6'
-  '204;7':
-    name: 'Enginex7'
-  '204;8':
-    name: 'Enginex8'
-  '204;9':
-    name: 'Enginex9'
+    name: 'ElectricalEngine'
   '205;0':
-    name: 'Machinex0'
+    name: 'Fermenter'
   '205;1':
-    name: 'Machinex1'
+    name: 'Still'
   '205;2':
-    name: 'Machinex2'
+    name: 'Bottler'
   '205;3':
-    name: 'Machinex3'
+    name: 'Raintank'
   '205;4':
-    name: 'Machinex4'
+    name: 'BioGenerator'
   '205;5':
-    name: 'Machinex5'
+    name: 'Carpenter'
   '205;6':
-    name: 'Machinex6'
+    name: 'Moistener'
   '205;7':
-    name: 'Machinex7'
+    name: 'Apiary'
   '205;8':
-    name: 'Machinex8'
+    name: 'Centrifuge'
   '205;9':
-    name: 'Machinex9'
+    name: 'Squeezer'
+  # RedPower
   '206;0':
     name: 'WhiteLamp'
   '206;1':
@@ -4107,36 +4076,36 @@ items:
     name: 'RedLamp'
   '206;15':
     name: 'BlackLamp'
+  # Railcraft
   '207;0':
     name: 'ElevatorRail'
+  # Forestry
   '208;0':
-    name: 'Millx0'
+    name: 'Forester'
   '208;1':
-    name: 'Millx1'
+    name: 'Rainmaker'
   '208;2':
-    name: 'Millx2'
+    name: 'TreetapMachine'
   '208;3':
-    name: 'Millx3'
+    name: 'ApiaristChest'
   '208;4':
-    name: 'Millx4'
+    name: 'Analyzer'
   '208;5':
-    name: 'Millx5'
+    name: 'Mailbox'
   '208;6':
-    name: 'Millx6'
+    name: 'TradeStation'
   '208;7':
-    name: 'Millx7'
-  '208;8':
-    name: 'Millx8'
-  '208;9':
-    name: 'Millx9'
+    name: 'StampCollector'
+  # Railcraft
   '209;0':
-    name: 'Cubexworldxanchor'
+    name: 'WorldAnchor'
   '209;1':
-    name: 'Cubexconcretexblock'
+    name: 'CubeOfConcrete'
   '209;2':
-    name: 'Cubexsteelxblock'
+    name: 'BlockOfSteel'
   '209;3':
-    name: 'Cubexbrickxinfernal'
+    name: 'InfernalBrick'
+  # MFFS
   '211;0':
     name: 'Forcefieldcore'
   '211;1':
@@ -4175,112 +4144,133 @@ items:
     name: 'Forcefieldcamouflageupgrade'
   '212;8':
     name: 'MFFSreactorconnector'
+  # IC2
   '219;0':
-    name: 'BlockLuminatorD'
+    name: 'LuminatorD'
   '223;0':
-    name: 'BlockTeleporter'
+    name: 'Teleporter'
   '223;1':
-    name: 'BlockTesla'
+    name: 'Tesla'
   '223;2':
-    name: 'BlockCropmatron'
+    name: 'Cropmatron'
   '224;0':
-    name: 'BlockMetalCopper'
+    name: 'MetalCopper'
   '224;1':
-    name: 'BlockMetalTin'
+    name: 'MetalTin'
   '224;2':
-    name: 'BlockMetalBronze'
+    name: 'MetalBronze'
   '224;3':
-    name: 'BlockMetalUranium'
+    name: 'MetalUranium'
   '225;0':
-    name: 'BlockPersonalChest'
+    name: 'PersonalChest'
   '225;1':
-    name: 'BlockPersonalTrader'
+    name: 'PersonalTrader'
   '226;0':
-    name: 'BlockLuminator'
+    name: 'Luminator'
   '227;0':
-    name: 'BlockBatBox'
+    name: 'BatBox'
   '227;1':
-    name: 'BlockMFE'
+    name: 'MFE'
   '227;2':
-    name: 'BlockMFSU'
+    name: 'MFSU'
   '227;3':
-    name: 'BlockTransformerLV'
+    name: 'TransformerLV'
   '227;4':
-    name: 'BlockTransformerMV'
+    name: 'TransformerMV'
   '227;5':
-    name: 'BlockTransformerHV'
+    name: 'TransformerHV'
   '229;0':
     name: 'BlockDoorAlloy'
   '230;0':
-    name: 'BlockAlloyGlass'
+    name: 'ReinforcedGlass'
+    aliases:
+    - 'BlockAlloyGlass'
   '231;0':
-    name: 'BlockAlloy'
+    name: 'ReinforcedStone'
+    aliases:
+    - 'AlloyStone'
+    - 'BlockAlloy'
   '235;0':
     name: 'BlockDynamiteRemote'
   '236;0':
     name: 'BlockDynamite'
   '237;0':
-    name: 'BlockNuke'
+    name: 'Nuke'
+  # RedPower
   '238;0':
-    name: 'SolarPanel'
+    name: 'BlulectricSolarPanel'
   '238;1':
     name: 'Pump'
   '238;2':
     name: 'Accelerator'
   '238;3':
     name: 'Grate'
+  # IC2
   '239;0':
-    name: 'BlockITNT'
+    name: 'IndustrialTNT'
+    aliases:
+    - 'ITNT'
   '246;0':
-    name: 'BlockGenerator'
+    name: 'Generator'
   '246;1':
-    name: 'BlockGeoGenerator'
+    name: 'GeoGenerator'
   '246;2':
-    name: 'BlockWaterGenerator'
+    name: 'WaterGenerator'
   '246;3':
-    name: 'BlockSolarGenerator'
+    name: 'SolarGenerator'
   '246;4':
-    name: 'BlockWindGenerator'
+    name: 'WindGenerator'
   '246;5':
-    name: 'BlockNuclearReactor'
+    name: 'NuclearReactor'
   '247;0':
-    name: 'BlockOreUran'
+    name: 'OreUranium'
   '248;0':
-    name: 'BlockOreTin'
+    name: 'OreTin'
   '249;0':
-    name: 'BlockOreCopper'
+    name: 'OreCopper'
   '250;0':
-    name: 'BlockMachine'
+    name: 'MachineBlock'
+    aliases:
+    - 'BlockMachine'
   '250;1':
-    name: 'BlockIronFurnace'
+    name: 'IronFurnace'
   '250;2':
-    name: 'BlockElecFurnace'
+    name: 'ElectricFurnace'
+    aliases:
+    - 'ElecFurnace'
   '250;3':
-    name: 'BlockMacerator'
+    name: 'Macerator'
   '250;4':
-    name: 'BlockExtractor'
+    name: 'Extractor'
   '250;5':
-    name: 'BlockCompressor'
+    name: 'Compressor'
   '250;6':
-    name: 'BlockCanner'
+    name: 'Canner'
   '250;7':
-    name: 'BlockMiner'
+    name: 'Miner'
   '250;8':
-    name: 'BlockPump'
+    name: 'Pump'
   '250;9':
-    name: 'BlockMagnetizer'
+    name: 'Magnetizer'
   '250;10':
-    name: 'BlockElectrolyzer'
+    name: 'Electrolyzer'
   '250;11':
-    name: 'BlockRecycler'
+    name: 'Recycler'
   '250;12':
-    name: 'BlockAdvMachine'
+    name: 'AdvancedMachine'
+    aliases:
+    - 'AdvMachine'
   '250;13':
-    name: 'BlockInduction'
+    name: 'InductionFurnace'
+    aliases:
+    - 'Induction'
   '250;14':
-    name: 'BlockMatter'
+    name: 'MassFabricator'
+    aliases:
+    - 'MassFab'
   '250;15':
-    name: 'BlockTerra'
+    name: 'Terraformer'
+  # RedPower
   '251;0':
     name: 'Deployer'
   '251;1':
@@ -4311,6 +4301,7 @@ items:
     name: 'Ejector'
   '251;15':
     name: 'Relay'
+  # Railcraft
   '252;0':
     name: 'Structurexpostxmetal'
   '252;1':
@@ -4413,6 +4404,7 @@ items:
     name: 'Utilityxdispenserxtrain'
   '254;14':
     name: 'Utilityxtankxwater'
+  # Jammy Furniture
   '712;0':
     name: 'Creeperhead'
   '713;0':
@@ -4433,6 +4425,7 @@ items:
     name: 'BlindsOpen'
   '754;0':
     name: 'Rubbishbin'
+  # Netherrocks
   '756':
     name: 'FyriteIngot'
   '757':
@@ -4517,6 +4510,7 @@ items:
     name: 'DragonstoneLegs'
   '921':
     name: 'DragonstoneBoots'
+  # Balkon's Weapon Mod
   '1160':
     name: 'SpearWood'
   '1161':
@@ -4611,6 +4605,7 @@ items:
     name: 'Dummy'
   '1208':
     name: 'GunStock'
+  # RedPower items
   '1260':
     name: 'IronHandsaw'
   '1261':
@@ -4749,46 +4744,14 @@ items:
     name: 'DiamondDrawplate'
   '1332':
     name: 'WoolCard'
+  # Forestry
   '1378;0':
-    name: 'Candlex0'
-  '1378;1':
-    name: 'Candlex1'
-  '1378;2':
-    name: 'Candlex2'
-  '1378;3':
-    name: 'Candlex3'
-  '1378;4':
-    name: 'Candlex4'
-  '1378;5':
-    name: 'Candlex5'
-  '1378;6':
-    name: 'Candlex6'
-  '1378;7':
-    name: 'Candlex7'
-  '1378;8':
-    name: 'Candlex8'
-  '1378;9':
-    name: 'Candlex9'
+    name: 'Candle'
   '1379;0':
-    name: 'Stumpx0'
-  '1379;1':
-    name: 'Stumpx1'
-  '1379;2':
-    name: 'Stumpx2'
-  '1379;3':
-    name: 'Stumpx3'
-  '1379;4':
-    name: 'Stumpx4'
-  '1379;5':
-    name: 'Stumpx5'
-  '1379;6':
-    name: 'Stumpx6'
-  '1379;7':
-    name: 'Stumpx7'
-  '1379;8':
-    name: 'Stumpx8'
-  '1379;9':
-    name: 'Stumpx9'
+    name: 'CandleStump'
+    aliases:
+    - 'Stump'
+  # SuperSlopes
   '1401;0':
     name: 'KaevWoodSlopesQuadriCornerDown'
   '1401;4':
@@ -5533,6 +5496,7 @@ items:
     name: 'KaevOrangeWoolSlopesSlopeUp'
   '1493;12':
     name: 'KaevOrangeWoolSlopesSlopeSide'
+  # ExtraBiomesXL
   '1520;0':
     name: 'BrownAutumnLeaves'
   '1520;1':
@@ -5541,18 +5505,6 @@ items:
     name: 'PurpleAutumnLeaves'
   '1520;3':
     name: 'YellowAutumnLeaves'
-  '1520;4':
-    name: 'Tilexautumnleavesx4'
-  '1520;5':
-    name: 'Tilexautumnleavesx5'
-  '1520;6':
-    name: 'Tilexautumnleavesx6'
-  '1520;7':
-    name: 'Tilexautumnleavesx7'
-  '1520;8':
-    name: 'Tilexautumnleavesx8'
-  '1520;9':
-    name: 'Tilexautumnleavesx9'
   '1521;0':
     name: 'Cattail'
   '1522;0':
@@ -5571,10 +5523,6 @@ items:
     name: 'ToadStool'
   '1522;7':
     name: 'WhiteFlower'
-  '1522;8':
-    name: 'Tilexflowerx8'
-  '1522;9':
-    name: 'Tilexflowerx9'
   '1523;0':
     name: 'BrownGrass'
   '1523;1':
@@ -5585,36 +5533,12 @@ items:
     name: 'TallDeadGrass'
   '1523;4':
     name: 'YellowDeadGrass'
-  '1523;5':
-    name: 'Tilexgrassx5'
-  '1523;6':
-    name: 'Tilexgrassx6'
-  '1523;7':
-    name: 'Tilexgrassx7'
-  '1523;8':
-    name: 'Tilexgrassx8'
-  '1523;9':
-    name: 'Tilexgrassx9'
   '1524;0':
     name: 'FirLeaves'
   '1524;1':
     name: 'RedwoodLeaves'
   '1524;2':
     name: 'AcaciaLeaves'
-  '1524;3':
-    name: 'Tilexgreenleavesx3'
-  '1524;4':
-    name: 'Tilexgreenleavesx4'
-  '1524;5':
-    name: 'Tilexgreenleavesx5'
-  '1524;6':
-    name: 'Tilexgreenleavesx6'
-  '1524;7':
-    name: 'Tilexgreenleavesx7'
-  '1524;8':
-    name: 'Tilexgreenleavesx8'
-  '1524;9':
-    name: 'Tilexgreenleavesx9'
   '1525;0':
     name: 'Leafpile'
   '1526;0':
@@ -5633,12 +5557,7 @@ items:
     name: 'RedwoodSapling'
   '1527;6':
     name: 'AcaciaSapling'
-  '1527;7':
-    name: 'Tilexsaplingx7'
-  '1527;8':
-    name: 'Tilexsaplingx8'
-  '1527;9':
-    name: 'Tilexsaplingx9'
+  # Secret Rooms
   '1584;0':
     name: 'SecretCamoLever'
   '1586;0':
@@ -5665,6 +5584,7 @@ items:
     name: 'ShelfLever'
   '1599;0':
     name: 'TorchLever'
+  # Netherrocks
   '1600;0':
     name: 'IllumeniteBlock'
   '1601;0':
@@ -5689,10 +5609,13 @@ items:
     name: 'DragonstoneOre'
   '1611;0':
     name: 'MalachiteBlock'
+  # EnderStorage
   '1666;0':
     name: 'EnderChest'
+  # ExtraBiomesXL
   '3126':
     name: 'Scarecrow'
+  # Hot Air Balloons
   '3256':
     name: 'HotAirBalloon'
   '3257':
@@ -5701,6 +5624,7 @@ items:
     name: 'LeatherBalloon'
   '3259':
     name: 'LeatherSheet'
+  # Mo' Creatures
   '4028':
     name: 'HorseSaddle'
   '4030':
@@ -5733,6 +5657,7 @@ items:
     name: 'CrocLegs'
   '4050':
     name: 'CrocBoots'
+  # Buildcraft items
   '4056':
     name: 'WoodenGear'
   '4057':
@@ -5748,11 +5673,12 @@ items:
   '4063':
     name: 'BucketOil'
   '4064':
-    name: 'id4064'
+    name: 'FuelBlock'  # at least that's what it looks like
   '4065':
     name: 'PipeWaterproof'
   '4066':
     name: 'BucketFuel'
+  # Thermal Expansion
   '4091;0':
     name: 'WhiteRockwool'
   '4091;1':
@@ -5803,6 +5729,7 @@ items:
     name: 'AqueousAccumulator'
   '4092;16':
     name: 'MachineChassis'
+  # Buildcraft
   '4298':
     name: 'PipeLiquidsRedstone'
   '4299':
@@ -5849,6 +5776,7 @@ items:
     name: 'PipePowerStone'
   '4324':
     name: 'PipePowerGold'
+  # RanCraft Penguins
   '4456':
     name: 'FlamePenguinScale'
   '4457':
@@ -5903,6 +5831,7 @@ items:
     name: 'FlamePenguinRepeater'
   '4787':
     name: 'MagmaFish'
+  # Forestry items
   '5256':
     name: 'FertilizerBio'
   '5257':
@@ -5910,11 +5839,11 @@ items:
   '5258':
     name: 'Apatite'
   '5259':
-    name: 'CopperIngot'
+    name: 'ForestryCopperIngot'
   '5260':
-    name: 'TinIngot'
+    name: 'ForestryTinIngot'
   '5263':
-    name: 'Wrench'
+    name: 'ForestryWrench'
   '5264':
     name: 'GearBronze'
   '5265':
@@ -5951,6 +5880,7 @@ items:
     name: 'HardenedMachine'
   '5282':
     name: 'IodineCapsule'
+  # Jammy Furniture
   '6256':
     name: 'ClockBase'
   '6257':
@@ -6065,10 +5995,11 @@ items:
     name: 'RubbishBin'
   '6312':
     name: 'BlindPart'
+  # Wireless Redstone
   '6357':
-    name: 'id6357'
+    name: 'Triangulator'
   '6358':
-    name: 'id6358'
+    name: 'WirelessRemote'
   '6359':
     name: 'WirelessSniffer'
   '6360':
@@ -6103,6 +6034,7 @@ items:
     name: 'ControllerCircuit'
   '7269':
     name: 'xcreosote'
+  # Railcraft
   '7272':
     name: 'BoreHeadSteel'
   '7291':
@@ -6157,6 +6089,7 @@ items:
     name: 'PipeItemsCrossover'
   '10656':
     name: 'PipePowerSwitch'
+  # MFFS
   '11366':
     name: 'MFFSremotereactorlink'
   '11367':
@@ -6173,12 +6106,14 @@ items:
     name: 'MFFSIDcard'
   '11374':
     name: 'MFFSlinkcard'
+  # Secret Rooms items
   '11857':
     name: 'SecretIronDoor'
   '11858':
     name: 'CamoflaugePaste'
   '11859':
     name: 'SecretWoodenDoor'
+  # Forestry
   '13256':
     name: 'Carton'
   '13257':
@@ -6190,17 +6125,27 @@ items:
   '13260':
     name: 'KitPickaxe'
   '13261':
-    name: 'BronzePickaxe'
+    name: 'SurvivalistPickaxe'
+    aliases:
+    - 'ForestryBronzePickaxe'
   '13262':
-    name: 'BrokenBronzePickaxe'
+    name: 'BrokenSurvivalistPickaxe'
+    aliases:
+    - 'BrokenForestryBronzePickaxe'
   '13263':
     name: 'KitShovel'
   '13264':
-    name: 'BronzeShovel'
+    name: 'SurvivalistShovel'
+    aliases:
+    - 'ForestryBronzeShovel'
   '13265':
-    name: 'BrokenBronzeShovel'
+    name: 'BrokenSurvivalistShovel'
+    aliases:
+    - 'BrokenForestryBronzeShovel'
   '13266':
-    name: 'Tent'
+    name: 'SurvivalistTent'  # hidden in NEI! secret Forestry item? sleeps when clicked
+    aliases:
+    - 'Tent'
   '13276':
     name: 'MouldyWheat'
   '13277':
@@ -6331,8 +6276,17 @@ items:
     name: 'Imprinter'
   '13367':
     name: 'Pipette'
-  '13368':
-    name: 'Chipsets'
+  # something is strange with these items.. randomly disappear/appear in NEI, and
+  # scan didn't pick up the subtypes. TODO: report bug?
+  #'13368':
+  #  name: 'Chipsets'
+  '13368;0':
+    name: 'SmallCircuitBoard'
+  '13368;1':
+    name: 'MediumCircuitBoard'
+  '13368;2':
+    name: 'LargeCircuitBoard'
+
   '13369':
     name: 'SolderingIron'
   '13371':
@@ -6455,6 +6409,7 @@ items:
     name: 'CratedSaplings'
   '18156':
     name: 'JetpackFueller'
+  # Iron Chests
   '19757':
     name: 'IronGoldUpgrade'
   '19758':
@@ -6471,28 +6426,30 @@ items:
     name: 'WoodIronUpgrade'
   '19764':
     name: 'WoodCopperUpgrade'
+  # Trees++ items
   '20004':
-    name: 'CPickAxe'
+    name: 'CrystalPickAxe'
   '20005':
-    name: 'CAxe'
+    name: 'CrystalAxe'
   '20006':
-    name: 'CShovel'
+    name: 'CrystalShovel'
   '20007':
-    name: 'CSword'
+    name: 'CrystalSword'
   '20008':
-    name: 'CHoe'
+    name: 'CrystalHoe'
   '20009':
-    name: 'BcPickAxe'
+    name: 'BlackCrystalPickAxe'
   '20010':
-    name: 'BcAxe'
+    name: 'BlackCrystalAxe'
   '20011':
-    name: 'BcShovel'
+    name: 'BlackCrystalShovel'
   '20012':
-    name: 'BcSword'
+    name: 'BlackCrystalSword'
   '20013':
-    name: 'BcHoe'
+    name: 'BlackCrystalHoe'
   '20015':
     name: 'Saw'
+  # Aquaculture
   '23256':
     name: 'IronFishingRod'
   '23257':
@@ -6531,18 +6488,21 @@ items:
     name: 'Lockbox'
   '23293':
     name: 'TreasureChest'
+  # THX Helicopter Mod
   '24256':
     name: 'ThxHelicopter'
+  # Charcoal Dust
   '26711':
     name: 'DustCharcoal'
   '26712':
     name: 'FuelCharcoalDust'
   '26713':
     name: 'FuelCharcoalCmpr'
+  # AnimalBikes
   '27014':
     name: 'Fossil'
   '27015':
-    name: 'Leathers'
+    name: 'Rawhide'
   '27016':
     name: 'Cowbike'
   '27017':
@@ -6581,18 +6541,36 @@ items:
     name: 'Dinobike'
   '30104':
     name: 'DebugItem'    # TODO: what is this? crashes on use
+  # IC2
   '30105':
     name: 'WeedEx'
   '30106':
     name: 'GrinPowder'
-  '30107':
-    name: 'id30107'
-  '30108':
-    name: 'Barrel'
+  # ..manually many of these added subtypes    
+  '30107;0':
+    name: 'Zero'
+  '30107;1':
+    name: 'WaterSoupBrew'
+  '30107;2':
+    name: 'Rum'
+  '30108;0':
+    name: 'EmptyBoozeBarrel'
+  '30108;1':
+    name: 'OneLiterBoozeBarrel'
+  '30108;2':
+    name: 'TwoLiterBoozeBarrel'
+  '30108;3':
+    name: 'ThreeLiterBoozeBarrel'
+  '30108;4':
+    name: 'FourLiterBoozeBarrel'
   '30109':
     name: 'Hops'
-  '30110':
-    name: 'id30110'
+  '30110;0':
+    name: 'ColdCoffee'
+  '30110;1':
+    name: 'DarkCoffee'
+  '30110;2':
+    name: 'Coffee'
   '30111':
     name: 'MugEmpty'
   '30112':
@@ -6636,7 +6614,7 @@ items:
   '30133':
     name: 'DustClay'
   '30134':
-    name: 'Freq'
+    name: 'FrequencyTransmitter'
   '30135':
     name: 'PartIndustrialDiamond'
   '30136':
@@ -6706,9 +6684,15 @@ items:
   '30186':
     name: 'Coin'
   '30187':
-    name: 'PartAlloy'
+    name: 'AdvancedAlloy'
+    aliases:
+    - 'PartAlloy'
   '30188':
     name: 'Matter'
+    aliases:
+    - 'UU'
+    - 'UUM'
+    - 'UUMatter'
   '30189':
     name: 'Scrap'
   '30190':
@@ -6734,11 +6718,11 @@ items:
   '30200':
     name: 'ToolBronzePickaxe'
   '30201':
-    name: 'CellUranEmpty'
+    name: 'CellUraniumEmpty'
   '30202':
-    name: 'CellUranEnriched'
+    name: 'CellUraniumEnriched'
   '30203':
-    name: 'CellUranDepleted'
+    name: 'CellUraniumDepleted'
   '30204':
     name: 'ReactorCooler'
   '30205':
@@ -6746,7 +6730,7 @@ items:
   '30206':
     name: 'CellCoolant'
   '30207':
-    name: 'CellUran'
+    name: 'CellUranium'
   '30208':
     name: 'ToolMiningLaser'
   '30209':
@@ -6766,7 +6750,9 @@ items:
   '30216':
     name: 'Rubber'
   '30217':
-    name: 'Harz'
+    name: 'StickyResin'
+    aliases:
+    - 'Harz'
   '30218':
     name: 'CellWater'
   '30219':
@@ -6818,17 +6804,31 @@ items:
   '30243':
     name: 'OreUran'
   '30244':
-    name: 'IngotUran'
+    name: 'IngotUranium'
+    aliases:
+    - 'u'
   '30245':
-    name: 'IngotAlloy'
+    name: 'IngotMixedMetalAlloy'
+    aliases:
+    - 'IngotAlloy'
+    - 'mma'
   '30246':
     name: 'IngotBronze'
+    aliases:
+    - 'br'
   '30247':
     name: 'IngotTin'
+    aliases:
+    - 'sn'
   '30248':
     name: 'IngotCopper'
+    aliases:
+    - 'cu'
   '30249':
-    name: 'IngotAdvIron'
+    name: 'IngotRefinedIron'
+    aliases:
+    - 'IngotAdvIron'
+    - 'ri'
   '30250':
     name: 'DustIronSmall'
   '30251':
@@ -6843,10 +6843,12 @@ items:
     name: 'DustIron'
   '30256':
     name: 'DustCoal'
+  # Gravitation Suite
   '30473':
     name: 'GraviChestPlate'
   '30474':
     name: 'UltimateLappack'
+  # Nuclear Control
   '31256':
     name: 'ItemToolThermometer'
   '31257':
