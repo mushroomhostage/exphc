@@ -17,8 +17,8 @@ settings:
   allow-end: true
   warn-on-overload: true
   kick-on-speedhack: false
-  outdated-server-message: Outdated server!
-  outdated-client-message: Outdated client!
+  outdated-server-message: 'Please see the setup instructions for how to connect (hint: minecraft-1.2.5exphc)'
+  outdated-client-message: 'Whoa, you are connecting with a Minecraft older than 1.2.5..why?'
   spawn-radius: 0
   permissions-file: permissions.yml
   update-folder: update
