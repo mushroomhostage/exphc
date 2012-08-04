@@ -16,14 +16,17 @@
 settings:
   allow-end: true
   warn-on-overload: true
-  kick-on-speedhack: true
-  spawn-radius: 16
+  kick-on-speedhack: false
+  outdated-server-message: Outdated server!
+  outdated-client-message: Outdated client!
+  spawn-radius: 0
   permissions-file: permissions.yml
   update-folder: update
   ping-packet-limit: 100
   use-exact-login-location: false
   plugin-profiling: false
   connection-throttle: 4000
+  query-plugins: true
 spawn-limits:
   monsters: 70
   animals: 15
