@@ -1,0 +1,329 @@
+size: 16000
+unloadChunksBeyond: false
+worlds:
+  world: true
+  world_nether: true
+  world_the_end: true
+randomSpawn: false
+randomRespawnAlways: false
+alternateWorlds: false
+alternateWorldsFixedTime: false
+alternateWorldsTemporalMesh: false
+alternateWorldsPotionEffects: true
+alternateWorldsPortalDevice: false
+apocalypseDamage: true
+apocalypseDamageThreshold: 5.0
+apocalypseDamageWater: false
+apocalypseDamageAcidRain: false
+shelterChance: 0
+craterChance: 0
+pipboyID: 345
+chatDistance: -5
+alwaysSneak: false
+shelter:
+  lightBlock: '129;1'
+  doorBlockUpper: 71
+  doorBlockUpperData: 0
+  doorBlockLower: 71
+  doorBlockLowerData: 8
+  buildingBlock: 231
+  enabledLootGroups:
+  - regular
+  - ic2
+  - ic2more
+  - mixedmods
+  - forestry
+  - trees++
+  - enchantmore
+  - potionsplus
+  loot:
+    regular:
+    - pumpkin_seeds
+    - bread
+    - cake
+    - melon
+    - mushroom_soup
+    - cooked_chicken
+    - cooked_beef
+    - grilled_pork
+    - cooked_fish
+    - redstone
+    - '356'
+    - redstone_torch_on
+    - torch
+    - iron_fence
+    - compass
+    - iron_boots
+    - iron_chestplate
+    - iron_leggings
+    - melon_seeds
+    - seeds
+    ic2:
+    - 3xiron_block
+    - 64xiron_ingot
+    - 64xiron_ingot
+    - 32xiron_ingot
+    - 64x30249
+    - 16x30244
+    - 1x30209
+    - 1x30211
+    - 48x30216
+    - 16x30239
+    - 16x30239
+    - 16x30239
+    - 16x30239
+    - 16x30238
+    - 16x30238
+    - 1x30222
+    - 1x30222
+    - 1x30222
+    - 1x139;1
+    - 64x30203
+    ic2more:
+    - 32x5261
+    - 1x30194;100
+    - 1x30195
+    - 1x30192;20
+    - 1x30193;50
+    - 1x30183;10
+    - 16x30188
+    - 5x30190
+    - 1x30208;27
+    - 64x30184;3
+    - 64x30184;1
+    - 1x23347
+    - 1x31256
+    - 16x238
+    - 1x30116
+    - 10x183;1
+    mixedmods:
+    - 5x181;5
+    - 1x126
+    - 1x126
+    - 1x127
+    - 14x214
+    - 1x215
+    - 64x4308
+    - 64x4310
+    - 64x4312
+    - 32x4303
+    - 16x4060
+    - 32x4058
+    - 1x3256
+    - 1x3256
+    - 1x3256
+    - 1x3257
+    - 1x3257
+    - 1x567
+    - 1x567;1
+    - 1x567;5
+    - 16x569
+    forestry:
+    - 1x13304
+    - 1x13305
+    - 1x13306
+    - 1x13307
+    - 1x13308
+    - 1x13344
+    - 1x13345
+    - 1x13346
+    - 1x13347
+    - 16x13282
+    - 48x13291
+    - 16x13319
+    - 16x13322
+    - 8x13787
+    - 32x13285
+    - 64x5274
+    - 64x13278
+    - 64x197
+    - 10x13788
+    - 32x13286
+    - 16x5267
+    - 8x5276
+    - 8x5282
+    - 64x13292
+    - 64x13292
+    - 1x13293
+    - 1x13262
+    - 1x13262
+    - 1x13265
+    - 1x13265
+    trees++:
+    - 16x20000
+    - 16x20000
+    - 16x20000;1
+    - 16x20000;2
+    - 16x20000;3
+    - 16x20000;4
+    - 16x20000;5
+    - 16x20000;6
+    - 16x20000;7
+    - 16x20000;7
+    - 16x20000;8
+    - 16x20000;9
+    - 16x20001;0
+    - 16x20001;1
+    - 16x20001;2
+    - 16x20001;3
+    - 8x20002
+    - 8x20002;1
+    - 8x20002;2
+    - 8x20002;3
+    - 8x20002;3
+    - 8x20002;4
+    - 8x20002;5
+    - 8x20002;6
+    - 8x20002;7
+    - 8x20002;8
+    - 8x20002;9
+    - 1x176
+    - 1x176;1
+    - 1x176;2
+    - 1x176;3
+    - 1x176;4
+    - 1x176;5
+    - 1x176;6
+    - 1x176;7
+    - 1x178;2
+    enchantmore:
+    - 1xgold_axe+6@1
+    - 1xiron_axe+48@1
+    - 1xiron_axe+48@1
+    - 1xleather_boots;10+48@1+49@1
+    - 1xdiamond_boots+2@1
+    - 10xbow+2@2
+    - 1xbow+33@1
+    - 1xleather_chestplate+33@1
+    - 1xleather_chestplate+49@1
+    - 3xfishing_rod+21@2
+    - 4xflint_and_steel;25+5@1
+    - 1xflint_and_steel;5+6@1
+    - 10xflint_and_steel;60+3@1
+    - 1xflint_and_steel;15+17@1
+    - 1xflint_and_steel+48@1
+    - 1xgold_sword;10+48@1
+    - 1xdiamond_sword+49@1
+    - 1xiron_sword;20+35@1
+    - 10xwood_sword+33@1
+    - 1xiron_sword;20+51@1
+    - 5xshears+21@1+17@1
+    - 1xshears+18@1
+    - 1xshears+35@1
+    - 2xdiamond_spade;1500+33@2
+    - 20xiron_helmet+20@1
+    - 1xdiamond_hoe+6@1
+    - 1xgold_hoe;30+48@1
+    - 1xiron_hoe+33@1
+    - 1xdiamond_pickaxe+50@1
+    - 1xiron_pickaxe+16@1
+    - 1xdiamond_pickaxe;1000+33@2
+    - 1xdiamond_pickaxe;100+16@2
+    - 1xdiamond_leggings+2@1
+    - 64xarrow
+    potionsplus:
+    - 1xpotion;6
+    - 1xpotion;11
+    - 1xpotion;13
+    - 1xpotion;14
+    - 1xpotion;22
+    - 1xpotion;27
+    - 1xpotion;29
+    - 1xpotion;30
+    - 1xpotion;38
+    - 1xpotion;43
+    - 1xpotion;45
+    - 1xpotion;46
+    - 1xpotion;48
+    - 1xpotion;54
+    - 1xpotion;59
+    - 1xpotion;61
+    - 1xpotion;62
+    - 1xpotion;16390
+    - 1xpotion;16395
+    - 1xpotion;16397
+    - 1xpotion;16398
+    - 1xpotion;16406
+    - 1xpotion;16411
+    - 1xpotion;16413
+    - 1xpotion;16414
+    - 1xpotion;16422
+    - 1xpotion;16427
+    - 1xpotion;16429
+    - 1xpotion;16430
+    - 1xpotion;16432
+    - 1xpotion;16438
+    - 1xpotion;16443
+    - 1xpotion;16445
+    - 1xpotion;16446
+    plane:
+    - 2x23289
+    - 2x23267
+    - 2x23262
+    - 1x23261
+    - 1x23281
+    - 1x23265
+    - 1x23274
+    - 1x23275
+    - 1x23277
+    - 16x23270
+    - 16x23270
+    - 2x23271
+    - 64xcoal
+    - 2x255
+    balkan:
+    - 1x5000
+    - 1x5006
+    - 1x5011
+    - 1x5019
+    - 1x5023
+    - 1x5025
+    - 1x5030
+    - 1x5033
+    - 5x5037
+    - 32x5039
+    - 1x5040
+    - 32x5041
+    - 32x5043
+    - 1x5046
+    - 1x5045
+    plastic:
+    - 1x1027
+    - 1x1027
+    - 1x1027
+    - 1x1009
+    - 1x1024
+    - 1x1024
+    - 1x1025
+    - 1x1028
+    - 16x1013
+    - 16x1015
+    - 8x1041
+    - 8x1042
+    - 1x1050
+    - 32x127
+    - 64x128
+    - 1x1014
+    - 1x130
+    - 1x1040
+  potionLoot:
+  - glass_bottle
+  - nether_stalk
+  - glowstone_dust
+  - redstone
+  - fermented_spider_eye
+  - magma_cream
+  - sugar
+  - speckled_melon
+  - spider_eye
+  - ghast_tear
+  - blaze_powder
+  - sulphur
+  - 1xpotion;6
+  - 1xpotion;11
+  - 1xpotion;13
+  - 1xpotion;61
+  - 1xpotion;16390
+  - 1xpotion;16395
+  - 1xpotion;16397
+
