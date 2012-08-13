@@ -31,14 +31,14 @@ earTrumpetEnable: true
 earTrumpetEnableCrafting: true
 earTrumpet:
   '1':
-    rangeIncrease: 100.0
+    rangeIncrease: 200.0
   '2':
-    rangeIncrease: 150.0
+    rangeIncrease: 1000.0
   '3':
-    rangeIncrease: 400.0
+    rangeIncrease: 5000.0
 walkieEnable: true
 walkieItem: compass
-walkieRangeMeters: 2000.0
+walkieRangeMeters: 10000.0
 walkieGarbleDivisor: 2.0
 walkieChatLineFormat: '[walkie] %1$s: %2$s'
 walkieHearLocally: true
