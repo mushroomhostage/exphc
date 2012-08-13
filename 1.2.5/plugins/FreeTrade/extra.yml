@@ -4105,6 +4105,8 @@ items:
     name: 'BlockOfSteel'
   '209;3':
     name: 'InfernalBrick'
+  '209;4':
+    name: 'CrushedObsidian'
   # MFFS
   '211;0':
     name: 'Forcefieldcore'
@@ -4144,6 +4146,32 @@ items:
     name: 'Forcefieldcamouflageupgrade'
   '212;8':
     name: 'MFFSreactorconnector'
+  # Plugins for Forestry
+  '213;0':
+    name: 'ThatchedSlab'
+  #'213;1':
+  #  name: 'Test2'   # that's what it is called..crashes client, do not use
+  # Trees++ flowers
+  '215;0':
+    name: 'FlowersxAlliumD'
+  '215;1':
+    name: 'FlowersxBachelorsB'
+  '215;2':
+    name: 'FlowersxBillyBs'
+  '215;3':
+    name: 'FlowersxDelphiniumB'
+  '215;4':
+    name: 'FlowersxFernflowerY'
+  '215;5':
+    name: 'FlowersxGerberaD'
+  '215;6':
+    name: 'FlowersxHydrangea'
+  '215;7':
+    name: 'FlowersxRedRover'
+  '215;8':
+    name: 'FlowersxSnapdragonM'
+  '215;9':
+    name: 'FlowersxStarofBethlehem'
   # IC2
   '219;0':
     name: 'LuminatorD'
@@ -4374,6 +4402,14 @@ items:
     name: 'Trackxcoupler'
   '253;23':
     name: 'Trackxdecoupler'
+  '253;24':
+    name: 'ReinforcedTrack'
+  '253;25':
+    name: 'ReinforcedBoosterTrack'
+  '253;26':
+    name: 'ReinforcedJunctionTrack'
+  '253;27':
+    name: 'ReinforcedSwitchTrack'
   '254;0':
     name: 'Utilityxloaderxitem'
   '254;1':
@@ -4404,6 +4440,15 @@ items:
     name: 'Utilityxdispenserxtrain'
   '254;14':
     name: 'Utilityxtankxwater'
+  '254;15':
+    name: 'RockCrusher'
+  # UsefulFood
+  '451;0':
+    name: 'HayBall'
+  '453;0':
+    name: 'ShocoCake'
+    aliases:
+    - ChocolateCake
   # Jammy Furniture
   '712;0':
     name: 'Creeperhead'
@@ -5627,6 +5672,8 @@ items:
   # Mo' Creatures
   '4028':
     name: 'HorseSaddle'
+  '4029':
+    name: 'Horsearmormetal'
   '4030':
     name: 'SharkTeeth'
   '4031':
@@ -5637,6 +5684,12 @@ items:
     name: 'BigCatClaw'
   '4035':
     name: 'Whip'
+  '4036':
+    name: 'Horsearmorgold'
+  '4037':
+    name: 'Horsearmordiamond'
+  '4038':
+    name: 'Staffunicorn'
   '4039':
     name: 'Medallion'
   '4041':
@@ -5647,6 +5700,8 @@ items:
     name: 'Rope'
   '4044':
     name: 'PetFood'
+  '4045':
+    name: 'Staffdiamond'
   '4046':
     name: 'CrocHide'
   '4047':
@@ -5880,6 +5935,71 @@ items:
     name: 'HardenedMachine'
   '5282':
     name: 'IodineCapsule'
+  # UsefulFood
+  '5306':
+    name: 'MagicFruitsalad'
+  '5307':
+    name: 'FriedEgg'
+  '5308':
+    name: 'PumpkinSoup'
+  '5309':
+    name: 'Salad'
+  '5310':
+    name: 'Milk'
+  '5311':
+    name: 'Fruitsalad'
+  '5312':
+    name: 'RoastedSeeds'
+  '5313':
+    name: 'Sugarcube'
+  '5314':
+    name: 'Cocoa'
+  '5315':
+    name: 'Cheese'
+  '5317':
+    name: 'Chocolatecandy'
+  '5318':
+    name: 'Caramel'
+  '5319':
+    name: 'CaramelApple'
+  '5320':
+    name: 'Oatmeal'
+  '5321':
+    name: 'Jelly'
+  '5322':
+    name: 'RawMarshmallow'
+  '5323':
+    name: 'Marshmallow'
+  '5324':
+    name: 'Icecream'
+  '5325':
+    name: 'Breadslice'
+  '5326':
+    name: 'PorkchopSandwich'
+  '5327':
+    name: 'SteakSandwich'
+  '5328':
+    name: 'FishSandwich'
+  '5329':
+    name: 'ChickenSandwich'
+  '5330':
+    name: 'EggSandwich'
+  '5331':
+    name: 'AppleCake'
+  '5332':
+    name: 'ChocolateCake'
+  '5333':
+    name: 'Bisquit'
+  '5334':
+    name: 'TrailMix'
+  '5335':
+    name: 'MagicCake'
+  '5336':
+    name: 'CookedMutton'
+  '5337':
+    name: 'RawMutton'
+  '5338':
+    name: 'MuttonSandwich'
   # Jammy Furniture
   '6256':
     name: 'ClockBase'
@@ -6024,17 +6144,29 @@ items:
     name: 'ReceiverDish'
   '6412':
     name: 'BlazeReceiverDish'
+  # Railcraft
   '7257':
     name: 'Partxrailbedxstone'
   '7262':
     name: 'Partxrebar'
+  '7263':
+    name: 'CreosoteBucket'
+  '7264':
+    name: 'CreosoteCan'
+  '7265':
+    name: 'CreosoteOil'
   '7267':
     name: 'Partxtiexstone'
   '7268':
     name: 'ControllerCircuit'
   '7269':
     name: 'xcreosote'
-  # Railcraft
+  '7273':
+    name: 'CreosoteCapsule'
+  '7274':
+    name: 'ObsidianDust'
+  '7275':
+    name: 'ReinforcedRail'
   '7272':
     name: 'BoreHeadSteel'
   '7291':
@@ -6407,6 +6539,65 @@ items:
     name: 'CratedSeeds'
   '13812':
     name: 'CratedSaplings'
+  # Mo' Creatures
+  '11712':
+    name: 'Fur'
+  '11713':
+    name: 'Omelet'
+  '11714':
+    name: 'Turtlemeat'
+  '11715':
+    name: 'Turtlesoup'
+  '11716':
+    name: 'Nunchaku'
+  '11717':
+    name: 'Sai'
+  '11718':
+    name: 'Bo'
+  '11719':
+    name: 'Katana'
+  '11720':
+    name: 'Sharksword'
+  '11721':
+    name: 'Key'
+  '11722':
+    name: 'Darkness'
+  '11723':
+    name: 'Nightmare'
+  '11732':
+    name: 'Undead'
+  '11733':
+    name: 'Light'
+  '11734':
+    name: 'PlateFur'
+  '11735':
+    name: 'HelmetFur'
+  '11736':
+    name: 'LegsFur'
+  '11737':
+    name: 'BootsFur'
+  '11738':
+    name: 'Heartdarkness'
+  '11739':
+    name: 'Heartfire'
+  '11740':
+    name: 'Heartundead'
+  '11741':
+    name: 'Ostrichmeat'
+  '11742':
+    name: 'Ostrichcooked'
+  '11743':
+    name: 'Unicorn'
+  '11744':
+    name: 'Staff'
+  '11745':
+    name: 'Staffender'
+  '11746':
+    name: 'Horsearmorcrystal'
+  '11747':
+    name: 'Recordshuffle'
+
+  # Power Converters
   '18156':
     name: 'JetpackFueller'
   # Iron Chests
@@ -6859,3 +7050,11 @@ items:
     name: 'ItemSensorLocationCard'
   '31260':
     name: 'ItemRangeUpgrade'
+  '31261':
+    name: 'ItemTimeCard'
+  '31262':
+    name: 'ItemEnergySensorKit'
+  '31263':
+    name: 'ItemEnergySensorLocationCard'
+  '31264':
+    name: 'ItemEnergyArrayLocationCard'
