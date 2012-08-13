@@ -1,0 +1,51 @@
+speakingRangeMeters: 50.0
+garbleRangeDivisor: 2.0
+garblePartialChance: 0.1
+garbleAllDroppedMessage: ~~~
+chatLineFormat: '%1$s: %2$s'
+chatSpokenPlayerColor: YELLOW
+chatHeardPlayerColor: GREEN
+chatMessageColor: WHITE
+chatDimMessageColor: DARK_GRAY
+yellMax: 4
+yell:
+  '1':
+    hunger: 1
+    rangeIncrease: 10.0
+  '2':
+    hunger: 2
+    rangeIncrease: 50.0
+  '3':
+    hunger: 4
+    rangeIncrease: 100.0
+  '4':
+    hunger: 20
+    rangeIncrease: 500.0
+whisperRangeDecrease: 40.0
+bullhornEnable: true
+bullhornItem: diamond
+bullhornFactor: 2.0
+bullhornWidthDegrees: 70.0
+bullhornChatLineFormat: '%1$s [%3$s]: %2$s'
+earTrumpetEnable: true
+earTrumpetEnableCrafting: true
+earTrumpet:
+  '1':
+    rangeIncrease: 100.0
+  '2':
+    rangeIncrease: 150.0
+  '3':
+    rangeIncrease: 400.0
+walkieEnable: true
+walkieItem: compass
+walkieRangeMeters: 2000.0
+walkieGarbleDivisor: 2.0
+walkieChatLineFormat: '[walkie] %1$s: %2$s'
+walkieHearLocally: true
+globalPrefix: '/g '
+globalChatLineFormat: '[global] %1$s: %2$s'
+smartphoneEnable: true
+smartphoneItem: watch
+smartphoneChatLineFormat: '[cell] %1$s: %2$s'
+smartphoneHearLocally: true
+smartphoneRings: 4
