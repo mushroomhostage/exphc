@@ -186,13 +186,13 @@ effects:
             '73;0': true        # Redstone
             '74;0': true        # Redstone
             # New ores added by mods (harmless to leave if block IDs not used)
-            '125;0': true       # Metallurgy CopperVein
-            '127;0': true       # Metallurgy TinVein
-            '130;0': true       # Metallurgy IronVein
-            '132;0': true       # Metallurgy ManganeseVein
-            '134;0': true       # Metallurgy MithrilVein
-            '138;0': true       # Metallurgy AdamantineVein
-            '140;0': true       # Metallurgy ZincVein / RedPower2 RubyOre
+            #'125;0': true       # Metallurgy CopperVein
+            #'127;0': true       # Metallurgy TinVein
+            #'130;0': true       # Metallurgy IronVein
+            #'132;0': true       # Metallurgy ManganeseVein
+            #'134;0': true       # Metallurgy MithrilVein
+            #'138;0': true       # Metallurgy AdamantineVein
+            #'140;0': true       # Metallurgy ZincVein / RedPower2 RubyOre
             '140;1': true       # RedPower2 EmeraldOre
             '140;2': true       # RedPower2 SapphireOre
             '140;3': true       # RedPower2 SilverOre
@@ -200,16 +200,27 @@ effects:
             '140;5': true       # RedPower2 CopperOre
             '140;6': true       # RedPower2 TungstenOre
             '140;7': true       # RedPower2 NikoliteOre
-            '143;0': true       # Metallurgy SilverVein
-            '145;0': true       # Metallurgy GoldVein
-            '146;0': true       # Metallurgy PlatinumVein
+            #'143;0': true       # Metallurgy SilverVein
+            #'145;0': true       # Metallurgy GoldVein
+            #'146;0': true       # Metallurgy PlatinumVein
             '247;0': true       # IndustrialCraft2 BlockOreUran
             '248;0': true       # IndustrialCraft2 BlockOreTin
             '249;0': true       # IndustrialCraft2 BlockOreCopper
-            # TODO: why does FT find MAX_VALUE - 1 data values? it does for Metallurgy too
-            #'247;32766': true   # IndustrialCraft2 BlockOreUran
-            #'248;32766': true   # IndustrialCraft2 BlockOreTin
-            #'249;32766': true   # IndustrialCraft2 BlockOreCopper
+            '127;0': true       # NetherOres Nether Coal
+            '127;1': true       # NetherOres Nether Diamond
+            '127;2': true       # NetherOres Nether Gold Ore
+            '127;3': true       # NetherOres Nether Iron Ore
+            '127;4': true       # NetherOres Nether Lapis Lazuli
+            '127;5': true       # NetherOres Nether Redstone Ore
+            '127;6': true       # NetherOres Nether Copper Ore
+            '127;7': true       # NetherOres Nether Tin Ore
+            '198;0': true       # Forestry Apatite
+            '1601;0': true      # Netherrocks Malachite Ore
+            '1603;0': true      # Netherrocks Ashstone Ore
+            '1604;0': true      # Netherrocks Illumenite Ore
+            '1606;0': true      # Netherrocks Fyrite Ore
+            '1608;0': true      # Netherrocks Argonite Ore
+            '1610;0': true      # Netherrocks Dragonstone Ore
     Pickaxe + Silk Touch:
         enable: true 
         minLevel: 2         # since Silk Touch I already exists in vanilla, we require higher levels by default
