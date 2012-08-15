@@ -1,0 +1,455 @@
+# EnchantMore configuration
+
+# If item/enchantment effect combination is not listed, default to on (true) or off (false)
+defaultEffectEnabled: true
+
+# For diagnosis purposes, if true, prints expanded item id + enchantment id and states 
+verboseConfig: false
+
+# Listen for player movement - required for Boots + Power, Boots + Flame, but can be
+# disabled if desired for performance reasons
+moveListener: true
+
+# Individual item + enchantment combinations
+# 'item' can either be an item category (Pickaxe), or specific item name (Diamond_Pickaxe)
+# 'enchantment' names and category names are defined below
+effects:
+    Axe + Aqua Affinity:
+        enable: true
+        durationTicksPerLevel: 100  # how long slowness should last, in ticks
+        amplifier: 1                # potion effect amplifier
+    Axe + Flame:
+        enable: true
+        extraTrunkWidthPerLevel: 1  # how far to chop around the tree trunk
+    Axe + Power:
+        enable: true
+    Axe + Respiration:
+        enable: true
+    Boots + Flame:
+        enable: true
+    Boots + Power:
+        enable: true
+        velocityMultiplerPerLevel: 1.0
+    Boots + Punch:
+        enable: true
+        yVelocityPerLevel: 0.7
+    Boots + Feather Falling:
+        minLevel: 10
+        enable: true
+    Bow + Aqua Affinity:
+        enable: true
+        freezeRangePerLevel: 1
+        stunRangePerLevel: 1.0
+        stunDurationTicksPerLevel: 100
+    Bow + Bane of Arthropods:
+        enable: true
+        poisonRangePerLevel: 1.0
+        poisonDurationTicksPerLevel: 100
+    Bow + Efficiency:
+        enable: true
+    Bow + Feather Falling:
+        enable: true
+        minLevelGrappleHook: 2      # level needed to make an invisible ladder at teleport destination
+        grappleHangOnTicks: 200     # time to delay before removing temporary ladder (10 seconds)
+    Bow + Fire Aspect:
+        enable: true
+        powerPerLevel: 1.0
+    Bow + Knockback:
+        enable: true
+    Bow + Looting:
+        enable: true
+    Bow + Respiration:
+        enable: true
+        # payloads to allow attaching to arrows adjacent in inventory
+        allowSpawnEgg: true         # payload of spawn egg spawns creatures
+        allowDoubleArrow: true      # payload of arrow shoots the 2nd arrow
+        allowSnowball: true         # payload of snowball throws it
+        allowEgg: true              # payload of egg has chance to hatch chicken
+        allowTNT: true              # payload of TNT ignites primed explosion
+        allowWaterBucket: true      # payload of water bucket dumps water
+        allowLavaBucket: true       # payload of lava bucket dumps lava
+        allowSplashPotion: true     # payload of splash potion throws the potion
+        allowBlock: true            # payload of block places the block
+        allowItem: true             # payload of other item drops the item (if off, item is deleted)
+    Bow + Sharpness:
+        enable: true
+        velocityFactorPerLevel: 2.0 # multiply arrow velocity
+    Bow + Silk Touch:
+        enable: true
+        allowProjectiles: true      # transports projectiles like arrows too
+        allowLivingEntities: true   # and living things, mobs, players, NPCs
+    Bow + Smite:
+        enable: true
+    Chestplate + Infinity:
+        enable: true
+    Chestplate + Knockback:
+        enable: true
+    Chestplate + Punch:
+        enable: true
+        damagePerLevel: 5
+    Chestplate + Respiration:
+        enable: true
+    Chestplate + Silk Touch:
+        enable: true
+    Chestplate + Sharpness:
+        enable: true
+    Fishing Rod + Efficiency:
+        enable: true
+    Fishing Rod + Fire Aspect:
+        enable: true
+    Fishing Rod + Flame:
+        enable: true
+    Fishing Rod + Fortune:
+        enable: true
+    Fishing Rod + Looting:
+        enable: true
+    Fishing Rod + Silk Touch:
+        enable: true
+    Fishing Rod + Smite:
+        enable: true
+    Fishing Rod + Sharpness:
+        damagePerLevel: 10
+        enable: true
+    Flint & Steel + Aqua Affinity:
+        enable: true
+    Flint & Steel + Blast Protection:
+        enable: true
+    Flint & Steel + Efficiency:
+        enable: true
+    Flint & Steel + Fire Aspect:
+        enable: true
+    Flint & Steel + Fire Protection:
+        enable: true
+    Flint & Steel + Punch:
+        enable: true
+    Flint & Steel + Respiration:
+        enable: true
+    Flint & Steel + Sharpness:
+        enable: true
+    Flint & Steel + Smite:
+        enable: true
+    Flint & Steel + Silk Touch:
+        enable: true
+    Helmet + Fire Aspect:
+        enable: true
+    Hoe + Aqua Affinity:
+        enable: true
+    Hoe + Bane of Arthropods:
+        enable: true
+    Hoe + Efficiency:
+        enable: true
+    Hoe + Fire Protection:
+        enable: true
+    Hoe + Fortune:
+        enable: true
+        chanceDropSeeds: 2      # 1-in-N change to drop seeds when hoed
+        dropRollMax: 4          # roll random number up 0..N-1
+        drops:
+            '0': seeds
+            #'0': '1290'         # RedPower2 Flax Seeds
+            '1': seeds
+            '2': melon_seeds
+            '3': pumpkin_seeds
+    Hoe + Knockback:
+        enable: true
+        yPerLevel: 1.0
+    Hoe + Power:
+        enable: true
+    Hoe + Punch:
+        enable: true
+    Hoe + Respiration:
+        enable: true
+    Hoe + Silk Touch:
+        enable: true
+    Leggings + Punch:
+        enable: true
+    Leggings + Feather Falling:
+        enable: true
+    Leggings + Knockback:
+        enable: true
+        damagePerLevel: 5
+    Pickaxe + Flame:
+        enable: true
+    Pickaxe + Looting:
+        enable: true
+    Pickaxe + Power:
+        enable: true
+    Pickaxe + Sharpness:
+        enable: true
+        rangePerLevel: 5                # mine up to a cube of this size per enchantment level
+        ores:
+            '14;0': true        # Gold
+            '15;0': true        # Iron
+            '16;0': true        # Coal
+            '21;0': true        # Lapis
+            '56;0': true        # Diamond
+            '73;0': true        # Redstone
+            '74;0': true        # Redstone
+            # New ores added by mods (harmless to leave if block IDs not used)
+            '125;0': true       # Metallurgy CopperVein
+            '127;0': true       # Metallurgy TinVein
+            '130;0': true       # Metallurgy IronVein
+            '132;0': true       # Metallurgy ManganeseVein
+            '134;0': true       # Metallurgy MithrilVein
+            '138;0': true       # Metallurgy AdamantineVein
+            '140;0': true       # Metallurgy ZincVein / RedPower2 RubyOre
+            '140;1': true       # RedPower2 EmeraldOre
+            '140;2': true       # RedPower2 SapphireOre
+            '140;3': true       # RedPower2 SilverOre
+            '140;4': true       # RedPower2 TinOre
+            '140;5': true       # RedPower2 CopperOre
+            '140;6': true       # RedPower2 TungstenOre
+            '140;7': true       # RedPower2 NikoliteOre
+            '143;0': true       # Metallurgy SilverVein
+            '145;0': true       # Metallurgy GoldVein
+            '146;0': true       # Metallurgy PlatinumVein
+            '247;0': true       # IndustrialCraft2 BlockOreUran
+            '248;0': true       # IndustrialCraft2 BlockOreTin
+            '249;0': true       # IndustrialCraft2 BlockOreCopper
+            # TODO: why does FT find MAX_VALUE - 1 data values? it does for Metallurgy too
+            #'247;32766': true   # IndustrialCraft2 BlockOreUran
+            #'248;32766': true   # IndustrialCraft2 BlockOreTin
+            #'249;32766': true   # IndustrialCraft2 BlockOreCopper
+    Pickaxe + Silk Touch:
+        enable: true 
+        minLevel: 2         # since Silk Touch I already exists in vanilla, we require higher levels by default
+        harvestIce: true
+        sublimateIce: false             # vaporize ice placed in The Nether (note: must be configured in diamond pickaxe section)
+        harvestDoubleSlabs: true        # instead of breaking into two slabs
+        placeDoubleSlabs: true          # preserve subtype on placement (wooden, stone, etc.)
+        harvestSilverfishBlocks: true   # instead of releasing the silverfish!
+        placeSilverfishBlocks: true     # preserve subtype on placement (stone, cobblestone, stone brick)
+        minLevelCrystal: 3              # minimum level to harvest endercrystals by right-clicking
+        spawnEggCrystal: true           # allow right-click spawn egg endercrystal to place
+    Shears + Bane of Arthropods:
+        enable: true
+    Shears + Fortune:
+        enable: true
+    Shears + Looting:
+        enable: true
+    Shears + Power:
+        enable: true
+    Shears + Silk Touch:
+        enable: true
+    Shears + Smite:
+        enable: true
+    Shovel + Flame:
+        enable: true
+    Shovel + Power:
+        enable: true
+    Shovel + Silk Touch:
+        enable: true
+        minLevel: 2         # since Silk Touch I already exists in vanilla, we require higher levels by default
+    Sword + Blast Protection:
+        enable: true
+    Sword + Feather Falling:
+        yVelocityPerLevel: 0.5
+        enable: true
+    Sword + Fire Protection:
+        enable: true
+    Sword + Fortune:
+        enable: true
+        maxLevel: 10
+    Sword + Infinity:
+        enable: true
+        durationPerLevelTicks: 40   # ticks to be invisible per each level
+    Sword + Power:
+        enable: true
+        rangePerLevel: 100  # distance in blocks will strike away for each enchantment level
+    Sword + Punch:
+        enable: true
+        maxLevel: 10        # level:maxLevel probability to succeed
+    Sword + Protection:
+        enable: true
+    Sword + Respiration:
+        enable: true
+        kickLevel: 1
+        kickMessage: 'Kicked by Sword + Respiration from %s'
+        banLevel: 2
+        banCommand: 'ban %s'
+        banTicksPerLevel: 200 # ban for 10 seconds each level
+        pardonCommand: 'pardon %s'
+    Sword + Silk Touch:
+        enable: true
+
+
+# Canonical names of enchantments and their respective IDs
+# See http://www.minecraftwiki.net/wiki/Enchanting#Enchantments
+enchantmentIDs:
+    Protection: 0
+    Fire Protection: 1
+    Feather Falling: 2
+    Blast Protection: 3
+    Projectile Protection: 4
+    Respiration: 5
+    Aqua Affinity: 6
+    Sharpness: 16
+    Smite: 17
+    Bane of Arthropods: 18
+    Knockback: 19
+    Fire Aspect: 20
+    Looting: 21
+    Efficiency: 32
+    Silk Touch: 33
+    Unbreaking: 34
+    Fortune: 35
+    Power: 48
+    Punch: 49
+    Flame: 50
+    Infinity: 51
+
+# Categories of items - used in 'effects' section above to expand the given items,
+# and also internally for category-specific item enchantments
+items:
+    Pickaxe:
+    - diamond_pickaxe
+    - gold_pickaxe
+    - iron_pickaxe
+    - stone_pickaxe
+    - wood_pickaxe
+    # Add your custom tools here (item IDs)... defaults from http://www.mcportcentral.co.za/
+    # If these items don't exist, they'll never be accessed, so they are harmless on vanilla,
+    # but, if the IDs conflict or are different you can change/remove them.
+    - '1051'    # PlasticCraft PPickaxe
+    - '1281'    # RedPower2 RubyPickaxe
+    - '1282'    # RedPower2 EmeraldPickaxe
+    - '1283'    # RedPower2 SapphirePickaxe
+    - '3714'    # Mo' Food and Crops ObsidianPick
+    - '13261'   # Forestry Survivalist's Pickaxe
+    - '21259'   # Metallurgy CopperPickaxe
+    - '21273'   # Metallurgy BronzePickaxe
+    - '21289'   # Metallurgy SteelPickaxe
+    - '21301'   # Metallurgy MithrilPickaxe
+    - '21313'   # Metallurgy OrichalcumPickaxe
+    - '21325'   # Metallurgy AdamantinePickaxe
+    - '30200'   # IndustrialCraft2 ToolBronzePickaxe
+    Hoe:
+    - diamond_hoe
+    - gold_hoe 
+    - iron_hoe
+    - stone_hoe
+    - wood_hoe
+    - '1287'    # RedPower2 RubyHoe
+    - '1288'    # RedPower2 EmeraldHoe
+    - '1289'    # RedPower2 SapphireHoe
+    - '3717'    # Mo' Food and Crops ObsidianHoe
+    - '21262'   # Metallurgy CopperHoe
+    - '21276'   # Metallurgy BronzeHoe
+    - '21292'   # Metallurgy SteelHoe
+    - '21304'   # Metallurgy MithrilHoe
+    - '21328'   # Metallurgy AdamantineHoe
+    - '21316'   # Metallurgy OrichalcumHoe
+    - '30119'   # IndustrialCraft2 ToolHoe (electric)
+    - '30196'   # IndustrialCraft2 ToolBronzeHoe
+    Sword:
+    - diamond_sword   
+    - gold_sword
+    - iron_sword
+    - stone_sword
+    - wood_sword
+    - '1275'    # RedPower2 RubySword
+    - '1276'    # RedPower2 EmeraldSword
+    - '1277'    # RedPower2 SapphireSword
+    - '3718'    # Mo' Food and Crops ObsidianSword
+    - '21263'   # Metallurgy CopperSword
+    - '21277'   # Metallurgy BronzeSword
+    - '21293'   # Metallurgy SteelSword
+    - '21305'   # Metallurgy MithrilSword
+    - '21317'   # Metallurgy OrichalcumSword
+    - '21329'   # Metallurgy AdamantineSword
+    - '30148'   # IndustrialCraft2 NanoSaber Uncharged
+    - '30149'   # IndustrialCraft2 NanoSaber Charged
+    - '30198'   # IndustrialCraft2 ToolBronzeSword
+    Shovel:
+    - diamond_spade
+    - gold_spade
+    - iron_spade
+    - stone_spade
+    - wood_spade
+    - '1050'    # PlasticCraft PShovel
+    - '1279'    # RedPower2 EmeraldShovel
+    - '1280'    # RedPower2 SapphireShovel
+    - '1278'    # RedPower2 RubyShovel
+    - '3715'    # Mo' Food and Crops ObsidianShovel
+    - '13264'   # Forestry Survivalist's Shovel
+    - '21260'   # Metallurgy CopperShovel
+    - '21274'   # Metallurgy BronzeShovel
+    - '21290'   # Metallurgy SteelShovel
+    - '21302'   # Metallurgy MithrilShovel
+    - '21314'   # Metallurgy OrichalcumShovel
+    - '21326'   # Metallurgy AdamantineShovel
+    Axe:
+    - diamond_axe
+    - gold_axe
+    - iron_axe
+    - stone_axe
+    - wood_axe
+    - '1052'    # PlasticCraft PAxe
+    - '1284'    # RedPower2 RubyAxe
+    - '1285'    # RedPower2 EmeraldAxe
+    - '1286'    # RedPower2 SapphireAxe
+    - '3716'    # Mo' Food and Crops ObsidianAxe
+    - '21261'   # Metallurgy CopperAxe
+    - '21275'   # Metallurgy BronzeAxe
+    - '21291'   # Metallurgy SteelAxe
+    - '21303'   # Metallurgy MithrilAxe
+    - '21315'   # Metallurgy OrichalcumAxe
+    - '21327'   # Metallurgy AdamantineAxe
+    - '30199'   # IndustrialCraft2 ToolBronzeAxe
+    # Farm-related block, either land or growing crops 
+    Farmblock:
+    - soil      # Farmland
+    - crops     # Wheat TODO: update wiki, calls 'Wheat Seeds' though in-game 'Crops'
+    - sugar_cane_block
+    - cake_block
+    - pumpkin_stem
+    - melon_stem
+    - nether_warts # Not the item, that is nether_stalk (confusingly)
+    # TODO: flaxseed from RedPower2?
+    # Able to be excavated by shovel
+    Excavatable:
+    - dirt
+    - grass
+    - gravel
+    - sand
+    - soul_sand
+    - netherrack  # Not normally diggable, but why not?
+    # TODO: more blocks?
+    WoodenBlock:
+    - wood
+    - wood_plate
+    - wood_stairs
+    - wooden_door
+    - log
+    - step;2            # wooden slab
+    - double_step;2     # wooden double slab
+
+    # Categories below only used for effects shortcuts
+    # Normally, armor effect determined by *slot* not *type* - if other item is in
+    # slot, then it will trigger if defaultEffectEnabled, so I haven't listed custom items here
+    Helmet:
+    - chainmail_helmet
+    - diamond_helmet
+    - gold_helmet
+    - iron_helmet
+    - leather_helmet
+    Chestplate:
+    - chainmail_chestplate
+    - diamond_chestplate
+    - gold_chestplate
+    - iron_chestplate
+    - leather_chestplate
+    Leggings:
+    - chainmail_leggings
+    - diamond_leggings
+    - gold_leggings
+    - iron_leggings
+    - leather_leggings
+    Boots:
+    - chainmail_boots
+    - diamond_boots
+    - gold_boots
+    - iron_boots
+    - leather_boots
+
+
